@@ -1,14 +1,13 @@
 ﻿# VERIFY - one verdict across every gate
 
-Run 2026-10-25 11:31. Every gate below is read-only and needs no hardware.
+Run 2026-10-25 11:38. Every gate below is read-only and needs no hardware.
 
 | gate | result | time | what it proves |
 |---|---|---|---|
-| `lint-refs` | PASS | 5730 ms | every reference in DSB\ resolves to a real file |
-| `verify-web` | PASS | 3285 ms | the inline script parses, every id the script reaches for exists, the measurement-baseline classifier still classifies |
-| `verify-sweep` | PASS | 23494 ms | the analyser rejects a partial or missing sweep and accepts a real one |
-| `verify-swap` | PASS | 846 ms | the A/B swap tunes are byte-consistent with what they claim to be |
-| `app-selftest` | PASS | 9662 ms | DreTunes builds, 126 assertions pass, and its 7 mutants are all caught |
+| `lint-refs` | PASS | 5921 ms | every reference in DSB\ resolves to a real file |
+| `verify-web` | PASS | 3219 ms | the inline script parses, every id the script reaches for exists, the measurement-baseline classifier still classifies |
+| `verify-sweep` | PASS | 22416 ms | the analyser rejects a partial or missing sweep and accepts a real one |
+| `verify-swap` | PASS | 901 ms | the A/B swap tunes are byte-consistent with what they claim to be |
 
 **All gates green.**
 

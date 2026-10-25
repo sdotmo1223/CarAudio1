@@ -1,5 +1,10 @@
 # dsb-status.ps1 - generate DSB\STATUS.md: the state of the world, in one read.
 #
+# STYLE NOTE - PowerShell's -f operator uses {0}, {1}, ... NOT %s or %d. C-style
+# placeholders render literally and silently: this file shipped with "%s" in its output
+# once, verify-all.ps1's table twice, and this file again after being fixed. It is a habit,
+# not a typo, so it is written down here. If a generated page shows a raw %s, that is why.
+#
 # Why this exists (2026-10-25): the knowledge base was 5,330 lines across fourteen documents,
 # and every session started by re-reading a large slice of it to answer five questions:
 #   which tune is playing, is the rig healthy, are the gates green, what changed last,
@@ -67,7 +72,7 @@ if ($plan) {
             $shown++
             if ($shown -le 5) { $parts += ('{0} Hz @ {1}' -f $flat[$i], $flat[$i+1]) }
         }
-        $tgt = (($parts -join ', ') + (' ... (%d anchors total)' -f $shown))
+        $tgt = (($parts -join ', ') + (' ... ({0} anchors total)' -f $shown))
     }
     elseif ($tgt -is [System.Management.Automation.PSCustomObject]) {
         $tgt = (($tgt.PSObject.Properties | ForEach-Object { '{0}={1}' -f $_.Name, $_.Value }) -join ', ')
@@ -117,6 +122,25 @@ if (Test-Path -LiteralPath $oq) {
     $q = (Get-Content -LiteralPath $oq) | Where-Object { $_ -match '^\|\s*(\*\*)?Q\d+' }
     W ('- **{0} open questions** - see `OPEN-QUESTIONS.md`, ranked by the decision each blocks' -f @($q).Count)
 } else { W '- **`OPEN-QUESTIONS.md` missing** - the unknowns have no register' }
+W ''
+
+# ---------------------------------------------------------------- repository
+W '## Repository'
+$gitDir = Join-Path $root '.git'
+if (Test-Path -LiteralPath $gitDir) {
+    try {
+        $head = (& git -C $root log -1 --format='%h %ad %s' --date=short 2>&1 | Out-String).Trim()
+        $dirty = @((& git -C $root status --porcelain 2>&1) | Where-Object { $_ -and $_.Trim() -ne '' })
+        W ('- **HEAD:** {0}' -f $head)
+        if ($dirty.Count -eq 0) { W '- **working tree: clean**' }
+        else {
+            W ('- **working tree: {0} change(s) pending, not committed**' -f $dirty.Count)
+            ($dirty | Select-Object -First 8) | ForEach-Object { W ('  - `{0}`' -f $_.Trim()) }
+        }
+    } catch { W ('- **git:** could not read the repository ({0})' -f $_.Exception.Message) }
+} else {
+    W '- **not a git repository.** Everything on disk is unrecoverable if it is overwritten.'
+}
 W ''
 
 # ---------------------------------------------------------------- staleness

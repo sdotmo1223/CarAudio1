@@ -44,6 +44,12 @@ If `verify-all` is red, fix it before changing anything else — a red gate mean
 edit lands on top of a known break. Add `-All` to include the desktop app's self-test (it
 builds, so close `DreTunes.exe` first).
 
+> **Expect `git status` to show `DSB\STATUS.md` and `DSB\VERIFY.md` as modified after these
+> two commands.** They are generated reports carrying a timestamp and a runtime, so they
+> change on every run — that is the diff telling you the state moved, not a real edit. Commit
+> them with your work, or discard them. `var\gate\` is ignored for the same reason in reverse:
+> those fixtures are rebuilt from scratch each run and their diffs carry no information.
+
 ---
 
 ## 2. The three rules that override everything
