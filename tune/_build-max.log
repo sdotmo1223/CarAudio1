@@ -1,0 +1,35 @@
+=== A: regression build (no fill, must match tune-plan-house.json) ===
+      gains PINNED to BASE_GAIN (the sweep-time device gains = tune 2): -4.6, -7.0, -7.0, -4.0, -3.0, -3.0, -14.0, -5.0
+      system-shift identity: max |dev| 7.11e-15 dB  PASS;  negative control (path 7 removed) dev 4.45 dB  PASS (detected)
+wrote var/_check-a.idsp  (124 KB, one tune)
+Traceback (most recent call last):
+  File "C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge\tune\fit-dense.py", line 775, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge\tune\fit-dense.py", line 730, in main
+    if json.dumps(doc['memories'][mi]['outputs'], sort_keys=True) != \
+                  ~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+=== diff vs house ===
+PLANS IDENTICAL
+=== B: fill build (31 bands/path) ===
+      gains PINNED to BASE_GAIN (the sweep-time device gains = tune 2): -4.6, -7.0, -7.0, -4.0, -3.0, -3.0, -14.0, -5.0
+      system-shift identity: max |dev| 7.11e-15 dB  PASS;  negative control (path 7 removed) dev 4.45 dB  PASS (detected)
+      fill path 0: 15 -> 15 bands (+0)
+      fill path 1: 18 -> 18 bands (+0)
+      fill path 2: 17 -> 17 bands (+0)
+      fill path 3: 17 -> 17 bands (+0)
+      fill path 4: 24 -> 25 bands (+1)
+      fill path 5: 24 -> 25 bands (+1)
+      fill path 6: 25 -> 26 bands (+1)
+      fill path 7: 21 -> 22 bands (+1)
+wrote web/4-maxfit-31b-2026-10-22.idsp  (124 KB, one tune)
+Traceback (most recent call last):
+  File "C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge\tune\fit-dense.py", line 775, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge\tune\fit-dense.py", line 730, in main
+    if json.dumps(doc['memories'][mi]['outputs'], sort_keys=True) != \
+                  ~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+=== ALLDONE ===

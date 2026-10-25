@@ -1,0 +1,17 @@
+{
+  "tool": "sweep-tool",
+  "mode": "analyse",
+  "at": "2026-10-20 17:44:03",
+  "input": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\sweep-20261020-174330-path_probe_music.wav",
+  "rate": 48000,
+  "delaySamples": 852485.731,
+  "delayMs": 17760.1194,
+  "snrDb": 6,
+  "coef": 0.0403,
+  "windowDropDb": 4.6,
+  "windowCoveragePct": 88,
+  "ok": false,
+  "truncated": true,
+  "verdict": "the arrival is not fully inside the recording",
+  "bands": []
+}

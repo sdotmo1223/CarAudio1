@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "session": "in-car, user driving, read-only pair/consistency audit from tune-baseline snapshot (no device writes)",
+  "state_verification": "full live re-read vs tune-baseline-2026-10-16.json: master -3, groups [-6,0,-6,-2.8], mem 1, source 0 High-level, mute false, all 8 paths EQ+bands+passband byte-identical, 0/8 diffs - tune UNTOUCHED during drive session",
+  "filter_codes_resolved_from_vendor_ui": {
+    "evidence": "AP.cs:7634 order menu [6dB,12dB,18dB,24dB,30dB,36dB,42dB,48dB] Tag=0..7; AP.cs:7557-7566 type menu [Butterworth, Linkwitz-Riley] Tag=0..1; AP.cs:7624 filterType=(num==1)?1:0; cbFreqType[j,k] Tag j+L/H -> mHlps[0]/[1] (AP.cs:7585-7600)",
+    "slope_1_2_3": "12 / 18 / 24 dB per octave",
+    "type_1": "Linkwitz-Riley",
+    "slot_naming": "vendor UI tags slot0=L slot1=H; semantic (band lower/upper edge vs LPF/HPF) still not proven from code alone - pending speaker-map cross-check"
+  },
+  "pair_audit": {
+    "p2_p3": "xover identical (2500 sl3 / 20000 sl1 LR), EQ avg diff 0.62 dB - consistent pair",
+    "p4_p5": "xover identical (250 sl3 / 2500 sl3 LR), EQ avg diff 1.01 dB - consistent pair",
+    "p0_p1": "DESYNCED: top slope 18 dB/oct (p0) vs 24 dB/oct (p1); EQ avg diff 3.56 dB, 0/31 bands within 0.15 dB",
+    "p6_p7": "very different crossovers (110/2500 vs 140/1000, both sl3 LR), EQ avg diff 2.95 - pair status unknown, needs speaker map"
+  },
+  "stale_eq_finding": {
+    "p0": "all 8 shaped EQ bands sit OUTSIDE its own 2500-20000 passband: 20Hz -5, 25Hz -0.5, 31Hz +4.6, 40Hz -5.9, 50Hz +12, 80Hz -0.8, 1000Hz +2.8, 1250Hz +10.1 - i.e. 100% of p0's EQ is inaudible-as-configured: leftover from a previous speaker role on that channel",
+    "other_paths": "p1-p7: 0 shaped bands outside their passbands",
+    "note": "under the opposite slot semantics (slot0=LPF) the anomaly count would be 3 paths (p1-p3 treble curves outside), vs 1 path here - parsimony + the user's 1-inch tweeter story favor slot0=lower band edge (HPF), pending walk-test"
+  },
+  "vendor_link_pairs": "vendor app has bLinkPair + Func_MP6XCopyPassBandDataToLinkPair (AP.cs:7533-7538, 7625) - editing one side of a linked pair copies passband/EQ to the partner; our web app does NOT propagate pair edits yet - candidate cause of p0/p1 slope desync if any edit was ever made from a tool that only wrote one side",
+  "no_vendor_tune_xml_found": "glob **/*.xml under project: only SpotifyBubble Android resources; tune-import feature exists but no vendor preset file on disk",
+  "actions_pending_parked_only": "speaker map (which physical outputs = 1in tweeters / 3.5in mids / p6 p7 feeds), then: confirm map by walk test, align chosen pair slopes/EQ, flatten p0 stale bands (or mirror p1), each with user approval; baseline file already saved for instant restore",
+  "console_errors": 0
+}

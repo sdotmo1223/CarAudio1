@@ -1,0 +1,667 @@
+{
+  "generated": "2026-10-25T15:07:59+00:00",
+  "playing_memory": "4-maxfit-31b-2026-10-22",
+  "tunes": [
+    {
+      "file": "banks\\bor8f3-flat4.idsp",
+      "modified": "2026-10-19 18:05",
+      "bytes": 327545,
+      "memories": 4,
+      "parse": "ok",
+      "playing": true,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\1-car-tune-2026-10-20.idsp",
+      "modified": "2026-10-23 04:30",
+      "bytes": 127509,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\2-bor8f3-improved.idsp",
+      "modified": "2026-10-23 04:30",
+      "bytes": 127501,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\3-house-curve-2026-10-22.idsp",
+      "modified": "2026-10-22 16:33",
+      "bytes": 127576,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\4-maxfit-31b-2026-10-22.idsp",
+      "modified": "2026-10-22 19:40",
+      "bytes": 127584,
+      "memories": 1,
+      "parse": "ok",
+      "playing": true,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\5-levelmatch-31b-2026-10-23.idsp",
+      "modified": "2026-10-23 07:16",
+      "bytes": 127647,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\ai2.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126174,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\bor8f3.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126731,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\cb0nyk.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126593,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\tinker3.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126242,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\w6784b.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126769,
+      "memories": 1,
+      "parse": "ok",
+      "playing": true,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "web\\xswmps.idsp",
+      "modified": "2026-10-22 14:28",
+      "bytes": 126731,
+      "memories": 1,
+      "parse": "ok",
+      "playing": false,
+      "source": "this project",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    }
+  ],
+  "reference_tunes": [
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-A-best-guess.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325688,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-AB-4memories-v2.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 326134,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-AB-4memories.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 326138,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-B-safe.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325705,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-C-competition.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325776,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-base-out.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325991,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-base.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 326043,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-first-try.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325674,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v10.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325708,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v11.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325708,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v12.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325708,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v13.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325703,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v2.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325682,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v3.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325704,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v4.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325696,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v5.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325698,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v6.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325702,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v7.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325710,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v8.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325708,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    },
+    {
+      "file": "evidence\\caraudio1\\upstream\\2027-test-tune-v9.idsp",
+      "modified": "2026-10-25 11:00",
+      "bytes": 325710,
+      "source": "github.com/sdotmo1223/CarAudio1 - another project, context only"
+    }
+  ],
+  "plans": [
+    {
+      "file": "tune\\tune-plan-dense.json",
+      "modified": "2026-10-22 04:15",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "tune\\tune-plan-house.json",
+      "modified": "2026-10-22 12:53",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "tune\\tune-plan-lvl.json",
+      "modified": "2026-10-23 07:16",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "tune\\tune-plan-max.json",
+      "modified": "2026-10-22 19:40",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "tune\\tune-plan-tune2lvl.json",
+      "modified": "2026-10-22 12:41",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    },
+    {
+      "file": "tune\\tune-plan.json",
+      "modified": "2026-10-20 20:22",
+      "paths": 8,
+      "target": [
+        [
+          20,
+          6.0
+        ],
+        [
+          35,
+          6.5
+        ],
+        [
+          55,
+          6.0
+        ],
+        [
+          80,
+          4.5
+        ],
+        [
+          120,
+          3.0
+        ],
+        [
+          180,
+          1.5
+        ],
+        [
+          300,
+          0.0
+        ],
+        [
+          500,
+          0.0
+        ],
+        [
+          800,
+          -0.3
+        ],
+        [
+          1000,
+          -0.5
+        ],
+        [
+          2000,
+          -1.5
+        ],
+        [
+          3500,
+          -2.5
+        ],
+        [
+          6000,
+          -3.5
+        ],
+        [
+          10000,
+          -4.5
+        ],
+        [
+          20000,
+          -5.5
+        ]
+      ],
+      "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+      "post_tune_measured_residual": "**NOT MEASURED**"
+    }
+  ],
+  "predicted_residuals": [],
+  "measured_residual_count": 0,
+  "note": "Every residual in this file is predicted from a pre-tune capture. No post-tune capture has ever been taken - OPEN-QUESTIONS.md Q1."
+}

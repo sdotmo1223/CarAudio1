@@ -1,0 +1,55 @@
+{
+  "session": "link-healing-2026-10-16",
+  "date": "2026-10-16",
+  "goal": "Make the phone-only workflow survive DSP power-cycles: no Connect tap, no bridge restart, no stale UI state.",
+  "rootCauseOfWin32Error": {
+    "symptom": "every API returned 'write error: Win32Error' and all channels showed identical EQ",
+    "cause": "DSP dropped off USB (power/cable); DspClient.IsOpen stayed true on the stale handle, Open() early-returned, every write died",
+    "evidence": "Get-PnpDevice VID_1483&PID_1095 -> Present=False, Status=Unknown during incident"
+  },
+  "changes": [
+    {
+      "file": "src/DspClient.cs",
+      "what": "_broken flag: Send() sets it on write error/short write/throw; IsOpen = _dev!=null && _dev.IsOpen && !_broken; Open() releases half-state before reopening; success clears it",
+      "effect": "IsOpen is now honest - a dead handle reports closed, so Connect and the watcher notice"
+    },
+    {
+      "file": "src/BridgeServer.cs",
+      "what": "LinkWatcher thread: every 5 s (ManualResetEvent-woken on shutdown) under _apiLock, opens the DSP if closed/broken, then RefreshDeviceGroupMask+RefreshProductDetail; logs state changes only. /api/info gains autoReconnect=true. DoConnect: probe-read a healthy link, close+reopen only on failure (no needless USB churn).",
+      "effect": "bridge self-heals the USB link; turning the key is all it takes"
+    },
+    {
+      "file": "web/index.html",
+      "what": "connectDone(d) shared by Connect button, bridgeAutoConnect poll (10 s, /api/info.open -> /api/connect), and page init (init pulls real state when link already up). Old btnConnect.click() trick removed.",
+      "effect": "page auto-joins within ~10 s and never shows tracked restart defaults (memory 0, -3.0 dB) as device truth; memory selector jumps to the DSP's active preset via renderStatus memChanged branch"
+    }
+  ],
+  "verification": [
+    "build.ps1 compiled clean; --selftest ALL TESTS PASSED",
+    "live proof: watcher auto-linked the DSP unprompted (INFO open=True while no user action), page auto-connected (DOM connected/Disconnect)",
+    "page reload after patch: 0 console errors; mem button data-mem=1 lit; master -3.0 dB, groups -6.0/0.0/-6.0/-2.8, source High-level all match /api/status exactly",
+    "served HTML contains connectDone, setInterval(bridgeAutoConnect,10000), init connect pull; click-trick absent",
+    "eqread after recovery: 31 bands, band0 fc=2625 Hz - tune intact (memory 1)"
+  ],
+  "secondIncident": {
+    "when": "later same day, mid-session",
+    "symptom": "every speaker silent; DSP absent from USB again (Present=False)",
+    "cause": "physical power/cable - not software (all bridge/page activity read-only; connectdone.ps1 not yet applied at the time)",
+    "resolution": "user restored power; watcher re-linked automatically; status verified: mem=1, source=0 High-level, unmuted"
+  },
+  "liveStateAtClose": {
+    "link": "open, auto-maintained",
+    "mem": 1,
+    "source": "0 High-level",
+    "mute": false,
+    "mainDb": -3.0,
+    "groupDb": [-6.0, 0.0, -6.0, -2.8],
+    "note": "master/groups deliberately left at user-set values per user ('do nt matter'); tune EQ/crossovers/gains/delays unchanged from w6784b.idsp load"
+  },
+  "userVerdict": "Yes I'm hearing sound now.",
+  "openItems": [
+    "two USB drops in one day = intermittent amp power/ground/cable - physical inspection when parked",
+    "DoMaster omitted-groups bug still documented-only (protocol doc section 12), code not patched",
+    "parked extras: in-car RTA sweep; ghost-overlay visual check on phone"
+  ]
+}

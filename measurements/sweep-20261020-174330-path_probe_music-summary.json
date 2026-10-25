@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T17:44:03",
+    "name":  "path_probe_music",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  25,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-174330-path_probe_music.wav",
+    "result":  "sweep-20261020-174330-path_probe_music.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

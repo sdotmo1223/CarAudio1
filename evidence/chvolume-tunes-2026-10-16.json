@@ -1,0 +1,33 @@
+{
+  "session": "chvolume-tunes-2026-10-16",
+  "date": "2026-10-16",
+  "features": [
+    {
+      "what": "Channel volume replaces group volume on the Status page",
+      "detail": "One slider per output, range -400..0 tenths dB (DSP's own DP12_OutputGain/-40.0..0.0 limits, protocol section 15, where 0 dB = full level). Sliders seed from the device's stored per-output levels (the active memory's tune) via seedVolume() after every channel-data load; release writes the complete 16-entry cmd 11 block through chSend, preserving all other channels. Note line states the source memory.",
+      "removed": "Group A-D sliders, Apply volume button, Output mask row (cmd 18 machinery retired from the UI; /api/volume endpoint still exists).",
+      "safety": "applyMaster/applySource/applyMemory now send groups from S.groupDb (device mirror seeded at connect) because DoMaster zeroes all four groups when the array is omitted (protocol section 12)."
+    },
+    {
+      "what": "Tune library API + delete-one-tune",
+      "detail": "GET /api/tunes lists *.idsp in the web folder; POST /api/tunes/delete {name} removes one. Name validated hard (no separators, no leading dot, .idsp suffix, <=128 chars) plus full-path containment check. Page dropdown is now built from /api/tunes at load (refreshTuneList), Delete-this-tune chip with window.confirm; clears preview if the deleted tune was loaded."
+    },
+    {
+      "what": "bor8f3.idsp imported",
+      "detail": "Copied from Downloads to web folder (327974 bytes); appears via the dynamic list."
+    }
+  ],
+  "verification": [
+    "build.ps1 compiled; --selftest ALL TESTS PASSED",
+    "/api/tunes: ok, 6 tunes [ai2, bor8f3, cb0nyk, tinker3, w6784b, xswmps]",
+    "delete round-trip: throwaway deletetest.idsp created, deleted via API, file gone, list still 6",
+    "traversal blocked: name '..\\\\..\\\\src\\\\BridgeServer.cs' rejected with 'invalid tune name'",
+    "page reload: 0 console errors; dropdown has 6 options + placeholder; delete chip present; card title 'Channel volume (dB)', sliders CH 0.. with range -400..0 step 1",
+    "DSP off at verification time, so sliders showed the honest 'Connect to read the live levels.' note; live seeding re-checks on next power-up (connect -> chLoad -> seedVolume)"
+  ],
+  "openItems": [
+    "confirm slider seeding against live device gains on next power-up (expect the tune's values: e.g. -5.8, -4.0, -10.2 ... from w6784b)",
+    "DoMaster omitted-groups code fix still pending (worked around page-side by always sending S.groupDb)",
+    "physical power/cable check for the two USB drops"
+  ]
+}

@@ -1,0 +1,21 @@
+﻿{
+    "at":  "2026-10-19T21:14:50",
+    "name":  "rehearsal-silent",
+    "mic":  "(from file)",
+    "loopback":  "(from file)",
+    "seconds":  14,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "rehearsal-silent.wav",
+    "result":  "sweep-20261019-211410-rehearsal-silent.json",
+    "bursts":  8,
+    "delaysMs":  [
+                     3.2083,
+                     3.7917,
+                     40.873,
+                     4.6042,
+                     5,
+                     5.3958,
+                     3.8958,
+                     4.3958
+                 ]
+}

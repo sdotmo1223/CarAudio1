@@ -1,0 +1,11 @@
+{
+  "tool": "sweep-tool",
+  "mode": "bursts",
+  "at": "2026-10-20 07:40:34",
+  "input": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\sweep-20261020-074013-live_chain_test.wav",
+  "rate": 48000,
+  "sweepSamples": 513600,
+  "bursts": [
+    {"i": 0, "loopbackSample": 58366, "micSample": 538693, "offsetSamples": 480327.388, "delayMs": 10006.8206, "snrDb": 6.9, "coef": 0.0464, "ok": false, "truncated": true, "bands": []}
+  ]
+}

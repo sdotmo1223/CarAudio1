@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T18:07:25",
+    "name":  "voice_check",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  10,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-180711-voice_check.wav",
+    "result":  "sweep-20261020-180711-voice_check.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

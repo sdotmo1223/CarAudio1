@@ -1,0 +1,32 @@
+{
+  "feature": "Targets tab: house curve + per-channel targets, in-app replacement for the Jazzi spreadsheet",
+  "date": "2026-10-17",
+  "changes": [
+    "bridge: GET/POST /api/targets -> ds18-bridge/targets.json (64 KB cap, same one-write-per-user-action pattern as rta-meas)",
+    "page: 7th nav tab 'Targets' (tab-targets section)",
+    "page: preset chips Whitledge/Flat/ATF/Audiofrog/EPY/Harman/Jazzi/Jazzi v2 - the 8 house curves read out of Jazzi's v8.2 xlsm (evidence/jazzi-target-curve-2026-10-17.json), embedded",
+    "page: house-curve canvas, drag anywhere = snap to nearest of the 31 ladder points (touch-friendly, pointer events), offset slider -12..+12 dB",
+    "page: per-channel slices canvas - house curve through each output's LR24 crossover window; channels seeded with w6784b's real crossovers read from the file + walk-map speaker names (protocol 18)",
+    "page: 8 channel rows (CH1-8 = outputs 0-7): name, HP, LP editable (0 = off), debounced auto-save 1.2 s + Save button",
+    "page: RTA plot now overlays the target as a violet dashed line, level-aligned to the measured curve's mean over 200 Hz - 5 kHz (dBFS has no absolute reference, only shape is comparable)"
+  ],
+  "verification": {
+    "compile": "build.ps1 -> compiled, exit 0",
+    "selftest": "ALL TESTS PASSED (exit 0)",
+    "api_empty_get": "GET /api/targets -> {ok:true,file} with no targets key",
+    "api_post": "POST round-trip -> HTTP 200, 480 bytes; GET echoes name + all 8 channels + HP/LP intact",
+    "api_reject": "POST 'notjson' -> HTTP 400",
+    "page_load": "0 console errors; nav = Status/Volume/EQ/Input/Tunes/RTA/Targets",
+    "page_state": "8 preset chips (Whitledge active), 8 channel rows hp/lp match w6784b (2000/0 x4, 250/2500 x2, 150/2000, 120/1000), 'loaded saved targets'",
+    "canvases": "house 7007 non-empty px, slices 8902 non-empty px, slice legend 16 items (8 swatches + 8 labels)",
+    "drag_edit": "synthetic pointerdown/move/up -> snapped 630 Hz +22 dB, renamed 'Custom (edited)', queued save",
+    "debounced_save": "GET after 1.2 s shows name Custom persisted",
+    "preset_restore": "Whitledge chip -> reverts curve, settles to 'saved to bridge (480 bytes)'",
+    "rta_overlay": "live RTA (61 bands, capturing, 48 kHz): 375 violet target px + 601 blue live px on plot, 0 console errors"
+  },
+  "not_verified_yet": [
+    "phone-side touch drag (synthetic pointer events only - laptop browser)",
+    "RTA overlay alignment quality with real pink-noise playback (needs parked car + stimulus)"
+  ],
+  "revert": "delete the /api/targets case + DoTargets method in BridgeServer.cs, delete the tab-targets section + nav button + the 'targets (house curve...)' JS block + the TGT overlay block inside rtaDraw in index.html, delete targets.json"
+}

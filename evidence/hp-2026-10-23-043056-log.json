@@ -1,0 +1,18 @@
+{
+  "hz": 100.0,
+  "path": 6,
+  "changes": [
+    {
+      "file": "web\\1-car-tune-2026-10-20.idsp",
+      "path": 6,
+      "old_hz": 50.0,
+      "new_hz": 100.0
+    },
+    {
+      "file": "web\\2-bor8f3-improved.idsp",
+      "path": 6,
+      "old_hz": 50.0,
+      "new_hz": 100.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T18:03:41",
+    "name":  "midbass_take1",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  40,
+    "sweep":  "sweep-110-12000-10s.wav",
+    "recording":  "sweep-20261020-180254-midbass_take1.wav",
+    "result":  "sweep-20261020-180254-midbass_take1.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

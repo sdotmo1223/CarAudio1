@@ -1,0 +1,41 @@
+﻿ffmpeg.exe : [aist#0:0/pcm_s16le @ 0000026c00172600] Guessed Channel Layout: stereo
+At line:3 char:13
++             & $exe @argList *>&1 | Out-File -FilePath $logPath -Encod ...
++             ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([aist#0:0/pcm_s... Layout: stereo:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Input #0, dshow, from 'audio=Microphone (UMIK-1)':
+  Duration: N/A, start: 12613.680000, bitrate: 1411 kb/s
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s, start 12613.680000
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge\var\probe\umik.wav':
+  Metadata:
+    ISFT            : Lavf63.10.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      encoder         : Lavc63.20.100 pcm_s16le
+size=       0KiB time=00:00:00.49 bitrate=   1.2kbits/s speed=0.993x elapsed=0:00:00.50    
+size=      94KiB time=00:00:01.50 bitrate= 511.3kbits/s speed=1.47x elapsed=0:00:01.02    
+size=     141KiB time=00:00:02.00 bitrate= 575.4kbits/s speed=1.31x elapsed=0:00:01.53    
+size=     188KiB time=00:00:02.50 bitrate= 613.9kbits/s speed=1.22x elapsed=0:00:02.05    
+size=     234KiB time=00:00:03.00 bitrate= 639.6kbits/s speed=1.17x elapsed=0:00:02.56    
+size=     256KiB time=00:00:03.50 bitrate= 598.7kbits/s speed=1.14x elapsed=0:00:03.08    
+size=     256KiB time=00:00:04.00 bitrate= 523.9kbits/s speed=1.11x elapsed=0:00:03.59    
+size=     256KiB time=00:00:04.50 bitrate= 465.8kbits/s speed=1.09x elapsed=0:00:04.11    
+size=     256KiB time=00:00:05.00 bitrate= 419.2kbits/s speed=1.08x elapsed=0:00:04.62    
+size=     256KiB time=00:00:05.50 bitrate= 381.1kbits/s speed=1.07x elapsed=0:00:05.14    
+size=     512KiB time=00:00:06.00 bitrate= 698.7kbits/s speed=1.06x elapsed=0:00:05.66    
+size=     512KiB time=00:00:06.50 bitrate= 645.0kbits/s speed=1.05x elapsed=0:00:06.17    
+size=     512KiB time=00:00:07.00 bitrate= 599.0kbits/s speed=1.05x elapsed=0:00:06.69    
+size=     512KiB time=00:00:07.50 bitrate= 559.0kbits/s speed=1.04x elapsed=0:00:07.20    
+size=     512KiB time=00:00:08.00 bitrate= 524.1kbits/s speed=1.04x elapsed=0:00:07.72    
+size=     512KiB time=00:00:08.50 bitrate= 493.3kbits/s speed=1.03x elapsed=0:00:08.23    
+size=     768KiB time=00:00:09.00 bitrate= 698.8kbits/s speed=1.03x elapsed=0:00:08.75    
+size=     768KiB time=00:00:09.50 bitrate= 662.1kbits/s speed=1.03x elapsed=0:00:09.26    
+size=     768KiB time=00:00:10.00 bitrate= 629.1kbits/s speed=1.02x elapsed=0:00:09.78    
+[out#0/wav @ 0000026c7d7ed440] video:0KiB audio:937KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing 
+overhead: 0.008127%
+size=     937KiB time=00:00:10.00 bitrate= 767.8kbits/s speed=0.952x elapsed=0:00:10.50    

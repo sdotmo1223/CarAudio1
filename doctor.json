@@ -1,0 +1,88 @@
+﻿{
+    "at":  "2026-10-21T20:18:41",
+    "verdict":  "READY WITH WARNINGS",
+    "fails":  0,
+    "warns":  4,
+    "dsp":  false,
+    "mem":  null,
+    "crossoversOpen":  [
+
+                       ],
+    "rows":  [
+                 {
+                     "level":  "warn",
+                     "area":  "dsp",
+                     "msg":  "bridge is up, DSP not connected (not connected). Reads below are skipped."
+                 },
+                 {
+                     "level":  "info",
+                     "area":  "crossover",
+                     "msg":  "snapshot on disk (memory 2-20261020-072143, memory 2-20261020-191029, memory 2) but the DSP is unplugged: connect it to check whether the crossovers are open"
+                 },
+                 {
+                     "level":  "warn",
+                     "area":  "mic",
+                     "msg":  "no UMIK-1 among the capture devices - the cal file cannot apply"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "rta",
+                     "msg":  "Microphone Array (Realtek(R) Au @ 48000 Hz, capturing"
+                 },
+                 {
+                     "level":  "warn",
+                     "area":  "usb",
+                     "msg":  "UMIK-1 / Microphone (UMIK-1): Unknown (re-plug it; sharing a hub with the DSP can drop it)"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "cal",
+                     "msg":  "UMIK-1 cal file: 615 points, 2025-08-23"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "ffmpeg 2026-10-15 12:57"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "ffplay 2026-10-15 12:57"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "csc 2024-03-11 23:53"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "ds18-bridge.exe 2026-10-21 04:21"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "rta.exe 2026-10-21 06:06"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "tool",
+                     "msg":  "sweep-tool.exe 2026-10-20 18:04"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "data",
+                     "msg":  "21 recording(s), newest 2026-10-20 18:15 (5,620 KB)"
+                 },
+                 {
+                     "level":  "ok",
+                     "area":  "backup",
+                     "msg":  "1 revert point(s), newest 2026-10-19 21:04"
+                 },
+                 {
+                     "level":  "warn",
+                     "area":  "disk",
+                     "msg":  "0.4 GB free on C:"
+                 }
+             ]
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "file": "1-car-tune-2026-10-20.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "e51e2d25bb3f",
+      "e51e2d25bb3f",
+      "e51e2d25bb3f",
+      "e51e2d25bb3f"
+    ],
+    "distinct_before": 1,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 124
+  },
+  {
+    "file": "2-bor8f3-improved.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "54f80f01c2bf",
+      "54f80f01c2bf",
+      "54f80f01c2bf",
+      "54f80f01c2bf"
+    ],
+    "distinct_before": 1,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 124
+  },
+  {
+    "file": "3-house-curve-2026-10-22.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "7d27d293bcc3",
+      "7d27d293bcc3",
+      "7d27d293bcc3",
+      "7d27d293bcc3"
+    ],
+    "distinct_before": 1,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 124
+  },
+  {
+    "file": "ai2.idsp",
+    "kept_block": 1,
+    "blocks": [
+      "33f75802e284",
+      "8590dd077f4f",
+      "fa680e437fbe",
+      "fa680e437fbe"
+    ],
+    "distinct_before": 3,
+    "dropped": [
+      0,
+      2,
+      3
+    ],
+    "size_kb": 123
+  },
+  {
+    "file": "bor8f3.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "5c62e5729667",
+      "c614c7108842",
+      "8bf530d754c5",
+      "c0a295864c19"
+    ],
+    "distinct_before": 4,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 123
+  },
+  {
+    "file": "cb0nyk.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "59cf06208de2",
+      "59cf06208de2",
+      "59cf06208de2",
+      "59cf06208de2"
+    ],
+    "distinct_before": 1,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 123
+  },
+  {
+    "file": "tinker3.idsp",
+    "kept_block": 1,
+    "blocks": [
+      "33f75802e284",
+      "33fcf4eaec6a",
+      "fa680e437fbe",
+      "fa680e437fbe"
+    ],
+    "distinct_before": 3,
+    "dropped": [
+      0,
+      2,
+      3
+    ],
+    "size_kb": 123
+  },
+  {
+    "file": "w6784b.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "8d396902481f",
+      "8d396902481f",
+      "8d396902481f",
+      "8d396902481f"
+    ],
+    "distinct_before": 1,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 123
+  },
+  {
+    "file": "xswmps.idsp",
+    "kept_block": 0,
+    "blocks": [
+      "5c62e5729667",
+      "c614c7108842",
+      "8bf530d754c5",
+      "5920c6127b11"
+    ],
+    "distinct_before": 4,
+    "dropped": [
+      1,
+      2,
+      3
+    ],
+    "size_kb": 123
+  }
+]

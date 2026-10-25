@@ -1,0 +1,12 @@
+regression default path byte-identical: True
+c0-mb19: exit=0 time=168s
+c1-mb15: exit=0 time=124s
+c2-mb23: exit=0 time=151s
+c3-mb27: exit=0 time=153s
+c4-mb19-r8: exit=0 time=169s
+c0-mb19: measured, EQ flat              bass(63/80/100) +3.9 +5.4 +13.7   presence(2k/3.15k/4k) -8.9 -15.0 -14.1   residual rms 7.6 dB  cand-c0-mb19.idsp              bass(63/80/100) +2.8 +3.3 +5.0   presence(2k/3.15k/4k) -1.7 -4.9 -3.8   residual rms 2.1 dB
+c1-mb15: measured, EQ flat              bass(63/80/100) +3.9 +5.4 +13.7   presence(2k/3.15k/4k) -8.9 -15.0 -14.1   residual rms 7.6 dB  cand-c1-mb15.idsp              bass(63/80/100) +2.0 +2.5 +3.9   presence(2k/3.15k/4k) -2.3 -6.2 -5.1   residual rms 2.3 dB
+c2-mb23: measured, EQ flat              bass(63/80/100) +3.9 +5.4 +13.7   presence(2k/3.15k/4k) -8.9 -15.0 -14.1   residual rms 7.6 dB  cand-c2-mb23.idsp              bass(63/80/100) +2.8 +3.3 +5.0   presence(2k/3.15k/4k) -1.7 -4.9 -3.8   residual rms 2.1 dB
+c3-mb27: measured, EQ flat              bass(63/80/100) +3.9 +5.4 +13.7   presence(2k/3.15k/4k) -8.9 -15.0 -14.1   residual rms 7.6 dB  cand-c3-mb27.idsp              bass(63/80/100) +2.8 +3.3 +5.0   presence(2k/3.15k/4k) -1.7 -4.9 -3.8   residual rms 2.1 dB
+c4-mb19-r8: measured, EQ flat              bass(63/80/100) +3.9 +5.4 +13.7   presence(2k/3.15k/4k) -8.9 -15.0 -14.1   residual rms 7.6 dB  cand-c4-mb19-r8.idsp           bass(63/80/100) +2.8 +3.3 +5.0   presence(2k/3.15k/4k) -1.7 -4.9 -3.8   residual rms 2.1 dB
+DONE

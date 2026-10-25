@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T18:15:17",
+    "name":  "listen60",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  60,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-181410-listen60.wav",
+    "result":  "sweep-20261020-181410-listen60.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  true
+}

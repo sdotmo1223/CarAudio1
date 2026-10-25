@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-16",
+  "session": "in-car, DSP USB connected, ~10 min window, reads only (no writes)",
+  "finding": "Crossover (cmd 13 / PassBand) is READABLE without a new command: the existing /api/eqread uses ReadSubCmd.EqAndPassBand and the reply is the full StructEqAndPassBand (1044 bytes) - the passband was already on the wire, just not decoded.",
+  "struct_math_verified": {
+    "StructEqGroup": "31 x StructEqCoff(28) + byPass(1) + reserve(3) = 872 bytes",
+    "StructPassBand": "lowFreq(2)+highFreq(2)+lowSlope(1)+highSlope(1)+lowFilterType(1)+highFilterType(1)+4xStructCoff(80)+4xStructCoff(80) = 168 bytes",
+    "StructCoff": "5 x uint = 20 bytes",
+    "mCrc": "4 bytes",
+    "total": "872+168+4 = 1044 == live bodyBytes (empirical confirmation)"
+  },
+  "decode": {
+    "method": "eqread wireHex: payload = wire[8 .. len-4]; passband scalars at payload+872; LE",
+    "mem": 1,
+    "paths": {
+      "0": { "slot0": { "fc": 2500, "slope": 3, "type": 1 }, "slot1": { "fc": 20000, "slope": 2, "type": 1 } },
+      "1": { "slot0": { "fc": 2500, "slope": 3, "type": 1 }, "slot1": { "fc": 20000, "slope": 3, "type": 1 } },
+      "2": { "slot0": { "fc": 2500, "slope": 3, "type": 1 }, "slot1": { "fc": 20000, "slope": 1, "type": 1 } },
+      "3": { "slot0": { "fc": 2500, "slope": 3, "type": 1 }, "slot1": { "fc": 20000, "slope": 1, "type": 1 } },
+      "4": { "slot0": { "fc": 250, "slope": 3, "type": 1 }, "slot1": { "fc": 2500, "slope": 3, "type": 1 } },
+      "5": { "slot0": { "fc": 250, "slope": 3, "type": 1 }, "slot1": { "fc": 2500, "slope": 3, "type": 1 } },
+      "6": { "slot0": { "fc": 110, "slope": 3, "type": 1 }, "slot1": { "fc": 2500, "slope": 3, "type": 1 } },
+      "7": { "slot0": { "fc": 140, "slope": 3, "type": 1 }, "slot1": { "fc": 1000, "slope": 3, "type": 1 } }
+    },
+    "mCrc_path0": "0x6914C4B1"
+  },
+  "vendor_evidence": {
+    "send_write": "AP.cs:1405 DspSendPassBandOfOnePathConfigData - cmdIndex=13, lowFreq=mHlps[0].Fc, highFreq=mHlps[1].Fc (AP.cs:1412-1417)",
+    "per_filter_state": "each mHlps[n] carries Fc, hiLowType, Slope, filterType, butt_Type, Enable (AP.cs:1918-1943) - hiLowType is NOT transmitted on the wire (cmd 13 struct has no such field)",
+    "probe_read": "Builders.ReadParam(ReadSubCmd.EqAndPassBand,...) in DoEqRead (BridgeServer.cs:1116)"
+  },
+  "unknowns": [
+    "Filter roles: wire struct names slots 'low*/high*' but vendor state stores hiLowType per filter which does NOT go on the wire - which slot is the HPF vs LPF for a given path is not proven from this data alone",
+    "Slope code table (1/2/3 -> dB/oct) and type code (1 -> Butterworth vs Linkwitz-Riley) not confirmed against vendor UI"
+  ],
+  "resolved_after_user_input": "User (in car, 2026-10-16): subs are NOT on any DSP output - they run on a totally separate amplifier. So no path showing a sub-like band is CORRECT, not a decode bug; all 8 DSP outputs are non-sub bands (110..20000). Closes the long-open 'which channels play subs' question: none of them. Implications: DSP EQ/crossover/master never touches the subs; RTA still measures them IF the sub amp is fed stimulus from the head unit (its signal source not yet documented).",
+  "safety": "all 8 reads via existing eqread API; zero cmd-13 writes; device state untouched",
+  "console_errors": 0
+}

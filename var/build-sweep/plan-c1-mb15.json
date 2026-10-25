@@ -1,0 +1,1646 @@
+{
+  "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+  "target": [
+    [
+      20,
+      6.0
+    ],
+    [
+      35,
+      6.5
+    ],
+    [
+      55,
+      6.0
+    ],
+    [
+      80,
+      4.5
+    ],
+    [
+      120,
+      3.0
+    ],
+    [
+      180,
+      1.5
+    ],
+    [
+      300,
+      0.0
+    ],
+    [
+      500,
+      0.0
+    ],
+    [
+      800,
+      -0.3
+    ],
+    [
+      1000,
+      -0.5
+    ],
+    [
+      2000,
+      -1.5
+    ],
+    [
+      3500,
+      -2.5
+    ],
+    [
+      6000,
+      -3.5
+    ],
+    [
+      10000,
+      -4.5
+    ],
+    [
+      20000,
+      -5.5
+    ]
+  ],
+  "paths": {
+    "7": {
+      "channel": "midbass 1",
+      "role": "rear 6.5\" pair",
+      "bands": [
+        {
+          "fc": 90,
+          "gain": 3.0,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 101,
+          "gain": -10.0,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -4.4,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -3.0,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 135,
+          "gain": -10.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": 2.8,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 202,
+          "gain": -9.5,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 226,
+          "gain": -1.7,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -5.2,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -3.6,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 761,
+          "gain": -3.7,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": 1.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 4.4,
+      "bandRangeHz": [
+        80,
+        7000
+      ],
+      "rmsBeforeDb": 11.13,
+      "rmsAfterDb": 7.83,
+      "rippleAfterDb": 26.6,
+      "newGainDb": -5.0
+    },
+    "4": {
+      "channel": "midrange 1",
+      "role": "front 3.5\" pair",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": 3.0,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": 0.9,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 180,
+          "gain": -3.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 214,
+          "gain": -12.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 285,
+          "gain": 0.4,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 359,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -4.2,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -5.4,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 640,
+          "gain": -4.8,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 854,
+          "gain": -1.5,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 905,
+          "gain": 0.6,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": 1.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1140,
+          "gain": -7.0,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -6.4,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1810,
+          "gain": -2.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 4.6,
+      "bandRangeHz": [
+        110,
+        9000
+      ],
+      "rmsBeforeDb": 11.05,
+      "rmsAfterDb": 8.77,
+      "rippleAfterDb": 24.33,
+      "newGainDb": -3.0
+    },
+    "5": {
+      "channel": "midrange 2",
+      "role": "rear 3.5\" pair",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": 0.7,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 214,
+          "gain": -4.3,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 269,
+          "gain": -0.7,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 320,
+          "gain": 0.9,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 359,
+          "gain": -8.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 381,
+          "gain": 0.3,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 427,
+          "gain": -0.1,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.6,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 538,
+          "gain": -0.9,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -5.1,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 604,
+          "gain": -0.3,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 718,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 905,
+          "gain": 0.4,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1140,
+          "gain": 2.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1208,
+          "gain": 0.6,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1613,
+          "gain": -3.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -7.2,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 5.0,
+      "bandRangeHz": [
+        110,
+        9000
+      ],
+      "rmsBeforeDb": 10.02,
+      "rmsAfterDb": 8.78,
+      "rippleAfterDb": 34.97,
+      "newGainDb": -3.0
+    },
+    "6": {
+      "channel": "midrange 3",
+      "role": "front 8\" pair",
+      "bands": [
+        {
+          "fc": 71,
+          "gain": 0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 90,
+          "gain": -7.8,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -4.5,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 127,
+          "gain": -0.5,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": 0.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": 0.6,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 190,
+          "gain": 1.0,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 202,
+          "gain": 0.2,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 269,
+          "gain": 0.1,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 359,
+          "gain": -7.5,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 508,
+          "gain": -0.1,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 640,
+          "gain": -0.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 854,
+          "gain": 1.5,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 905,
+          "gain": 0.6,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1076,
+          "gain": -0.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1280,
+          "gain": -4.0,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 3.8,
+      "bandRangeHz": [
+        70,
+        5000
+      ],
+      "rmsBeforeDb": 8.66,
+      "rmsAfterDb": 6.83,
+      "rippleAfterDb": 27.67,
+      "newGainDb": -14.0
+    },
+    "0": {
+      "channel": "tweeter 1",
+      "role": "front-left tweeter",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -4.5,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2032,
+          "gain": -2.4,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5120,
+          "gain": -9.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5747,
+          "gain": 2.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 8127,
+          "gain": -0.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 10849,
+          "gain": 3.0,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 5.4,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 6.62,
+      "rmsAfterDb": 4.64,
+      "rippleAfterDb": 12.21,
+      "newGainDb": -4.6
+    },
+    "1": {
+      "channel": "tweeter 2",
+      "role": "front-right tweeter",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -3.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -2.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2032,
+          "gain": -4.2,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2712,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2874,
+          "gain": 1.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5120,
+          "gain": -5.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 8127,
+          "gain": -2.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 10240,
+          "gain": -1.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 14482,
+          "gain": -2.9,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 3.8,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 5.69,
+      "rmsAfterDb": 4.71,
+      "rippleAfterDb": 12.78,
+      "newGainDb": -7.0
+    },
+    "2": {
+      "channel": "tweeter 3",
+      "role": "rear-left tweeter",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -11.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2281,
+          "gain": -4.7,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 3620,
+          "gain": 2.5,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5120,
+          "gain": -6.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5747,
+          "gain": 0.4,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 8127,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 10849,
+          "gain": 0.9,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 14482,
+          "gain": -1.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 6.0,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 7.94,
+      "rmsAfterDb": 5.01,
+      "rippleAfterDb": 16.89,
+      "newGainDb": -7.0
+    },
+    "3": {
+      "channel": "tweeter 4",
+      "role": "rear-right tweeter",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -1.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 120,
+          "gain": -0.6,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 143,
+          "gain": -0.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -1.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 160,
+          "gain": -0.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": -0.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 453,
+          "gain": -0.7,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 570,
+          "gain": -2.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -4.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": -1.4,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -8.3,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1437,
+          "gain": -2.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2032,
+          "gain": -5.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2874,
+          "gain": -0.9,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5120,
+          "gain": -2.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5747,
+          "gain": -1.2,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 6089,
+          "gain": -2.7,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 10240,
+          "gain": 1.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 10849,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": null,
+      "delayMs": 4.1,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 7.62,
+      "rmsAfterDb": 5.49,
+      "rippleAfterDb": 17.65,
+      "newGainDb": -4.0
+    }
+  },
+  "skipped": []
+}

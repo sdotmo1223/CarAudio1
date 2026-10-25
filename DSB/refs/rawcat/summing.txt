@@ -1,0 +1,74 @@
+RAW-CAt - "summing" (the 5-way tuning series)
+Transcript taken down by the owner 2026-10-23 and saved here verbatim.
+Source channel: RAW-CAt. SOURCE MATERIAL, not doctrine - the digest derived from it is
+TUNE-PLAYBOOK.md §9.0.2. Where this conflicts with what the car can actually measure,
+the playbook wins.
+
+Note: this session he built the system up cumulatively - subs, then +midbass, then
++midrange, then +tweeters - measuring the SUM after each addition. He discovered his
+midrange had inverted polarity during this session. He left the midrange phase issues
+unresolved (it was midnight) and planned to return with impulse-response work.
+
+---
+
+[00:00:06] so part i don't know which one i'm thinking now because now if you can see on the clock here
+[00:00:13] on the corner it's almost midnight i'm not gonna try to fix this area because it's it's gonna take a
+[00:00:21] while i'm gonna leave it for next time what i would like to do now is to see how and
+[00:00:29] if everything sums so because the thing is i did only initial
+[00:00:39] initial delay and i didn't play anything so i just want to see if it sums nicely so let's see
+[00:00:50] the front sub and the rear sub together if do they sum let's make this bigger let's yeah let's see
+[00:01:00] if they
+[00:01:10] sum
+[00:01:20] okay so looks like they're summing very very nice so i'm gonna save this and this is going to be
+[00:01:29] both subs
+[00:01:34] now let's add the mid bass which is c and d measure
+[00:01:52] again
+[00:02:04] cool it looks like it's summing so yeah following let's add the mid-range and see what happens this is the
+[00:02:16] always the best part so mid-range is g and h g and
+[00:02:34] h
+[00:02:50] okay so you can see that they do not sum
+[00:02:59] huh very weird let's try reverse polarity on the mids on both of them so let's link them together for
+[00:03:13] some reason let me just check time polarity normal normal arm for some reason my mids have inverted polarity i
+[00:03:22] don't know why let's make the polarity normal for both mids and let's measure again see if that changes
+[00:03:44] anything
+[00:03:58] okay current so it it doesn't look like
+[00:04:09] okay there's a bit too too much stuff happening   let's untick clear selection let's have only
+[00:04:21] these
+[00:04:26] tweets base
+[00:04:32] okay so that's the new level of the this green one   i don't need it
+[00:04:40] okay and this is the sub and now this   so here we have that   face thingy happening but
+[00:04:51] here something doesn't sum and it looks like it doesn't sum between the mid-range and the front sub
+[00:05:04] this is but this this is basically a timing issue so it's going to be something to do with   um
+[00:05:12] with the delay
+[00:05:15] it's weird but yeah that's something to look at it's not that much like 5 db dip it is a
+[00:05:22] dip but okay let's just see how tweeters come into play   everything unmuted let's
+[00:05:36] measure
+[00:05:50] so
+[00:06:01] okay current save and what do we have   okay so this   something was to mention here
+[00:06:17] let's change the polarity of the tweeters because why not
+[00:06:24] invert it let's measure
+[00:06:32] again
+[00:06:52] okay current
+[00:06:57] did it help no really kind it did actually did kind of help   yeah yeah it did help yeah so
+[00:07:09] the thing is if you remember   let me just untick this
+[00:07:15] this so in this area we had problems with the mids and basically in all of this is just mids
+[00:07:22] probably with mid mid mids so in this we had the slope that was a bit under the target so
+[00:07:30] if i'm gonna bring that slope up it's gonna come even out let's actually smooth a bit one third yeah
+[00:07:40] so if i'm gonna bring this slope a bit up that's going to even out a bit then this is
+[00:07:45] a phase issue between the two of the mids because one doesn't have it the other one doesn't have it
+[00:07:52] when they play together there's an issue so it's between them so that's probably will need an all pass filter
+[00:07:58] and something here i don't know what but the thing is it is midnight and i'm actually tired so i
+[00:08:10] will leave let's zoom in a bit   there we go i'm gonna i'm gonna leave this target as it is
+[00:08:18] because   here is a dip i don't know if this is timing it's gonna be timing so tomorrow
+[00:08:25] maybe the day after whatever i'm going to do   impulse response i'm going to double check everything all the
+[00:08:30] phase everything and then somehow we're going to sort it out but this is the progress for today so basically
+[00:08:39] i need to achieve this something like this so the crossover region here is basically the slope for the mids
+[00:08:48] and then sort out this but today i'm gonna leave that as it as it is because i am tired
+[00:08:54] it's midnight time to sleep but i'm very very happy with the sub front sub and mid bass this is
+[00:09:03] an amazing integration even if i will do no smoothing let's remove all the smoothing just like that   yeah so
+[00:09:14] all these some perfectly and there's just issues with mids my mids are in the dash and   just some
+[00:09:24] phase issues yeah so thank you very much for watching i don't know who will watch everything but i'm gonna
+[00:09:33] upload it as it is with no edits no fast forwards no nothing i'm gonna leave it as it is
+[00:09:39] and i'm gonna pick this up   sometime later on i don't know if i would manage to do this
+[00:09:45] with this week maybe next week i don't know but i'm gonna have it like this at the moment and
+[00:09:51] yeah again thank you very very much for watching and i will see you in the next one

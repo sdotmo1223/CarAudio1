@@ -1,0 +1,1888 @@
+﻿{
+    "paths":  [
+                  {
+                      "passband":  {
+                                       "mCrc":  "6914C4B1",
+                                       "slot1Slope":  2,
+                                       "slot1Fc":  20000,
+                                       "slot0Fc":  2500,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  0,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  1,
+                                        "gain":  -5,
+                                        "enable":  true,
+                                        "fc":  20
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  -0.5,
+                                        "enable":  true,
+                                        "fc":  25
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  4.6,
+                                        "enable":  true,
+                                        "fc":  31
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  -5.9,
+                                        "enable":  true,
+                                        "fc":  40
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  12,
+                                        "enable":  true,
+                                        "fc":  50
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0.3,
+                                        "enable":  true,
+                                        "fc":  63
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  -0.8,
+                                        "enable":  true,
+                                        "fc":  80
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  100
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  125
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  160
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  200
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  250
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  315
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  400
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  500
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  630
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  800
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  2.8,
+                                        "enable":  true,
+                                        "fc":  1000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  10.1,
+                                        "enable":  true,
+                                        "fc":  1250
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  1600
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  2000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  2500
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  3150
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  4000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  5000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  6300
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  8000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  10000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  12500
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  16000
+                                    },
+                                    {
+                                        "q":  1,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  20000
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "F62525B1",
+                                       "slot1Slope":  3,
+                                       "slot1Fc":  20000,
+                                       "slot0Fc":  2500,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  1,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  10,
+                                        "gain":  2.3,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.3,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.9,
+                                        "enable":  true,
+                                        "fc":  3701
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.6,
+                                        "enable":  true,
+                                        "fc":  3865
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  4036
+                                    },
+                                    {
+                                        "q":  16,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  5466
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  5708
+                                    },
+                                    {
+                                        "q":  16,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  5708
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6500
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6788
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6788
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.2,
+                                        "enable":  true,
+                                        "fc":  8072
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  8429
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.8,
+                                        "enable":  true,
+                                        "fc":  8803
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.1,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.1,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.4,
+                                        "enable":  true,
+                                        "fc":  9599
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.3,
+                                        "enable":  true,
+                                        "fc":  10024
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.3,
+                                        "enable":  true,
+                                        "fc":  10024
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3,
+                                        "enable":  true,
+                                        "fc":  10024
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.4,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.8,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.6,
+                                        "enable":  true,
+                                        "fc":  10932
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.2,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.2,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.4,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.9,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.5,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.3,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "C2AB8A19",
+                                       "slot1Slope":  1,
+                                       "slot1Fc":  20000,
+                                       "slot0Fc":  2500,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  2,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  10,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  3865
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  4036
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  4215
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  4401
+                                    },
+                                    {
+                                        "q":  16,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  5234
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  7402
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  7402
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.4,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  12,
+                                        "gain":  -1.4,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.8,
+                                        "enable":  true,
+                                        "fc":  8072
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.3,
+                                        "enable":  true,
+                                        "fc":  8429
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2,
+                                        "enable":  true,
+                                        "fc":  8429
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.5,
+                                        "enable":  true,
+                                        "fc":  8803
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.4,
+                                        "enable":  true,
+                                        "fc":  8803
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.3,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.8,
+                                        "enable":  true,
+                                        "fc":  9599
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.7,
+                                        "enable":  true,
+                                        "fc":  9599
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.3,
+                                        "enable":  true,
+                                        "fc":  10024
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.1,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.9,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.8,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.2,
+                                        "enable":  true,
+                                        "fc":  10932
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.4,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.9,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.1,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.1,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.9,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  12,
+                                        "gain":  -2.6,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.5,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "CE70C354",
+                                       "slot1Slope":  1,
+                                       "slot1Fc":  20000,
+                                       "slot0Fc":  2500,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  3,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  10,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  3544
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  3865
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  4036
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  4401
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  5012
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  5012
+                                    },
+                                    {
+                                        "q":  16,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6500
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6788
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  6788
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  7088
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.2,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.2,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.2,
+                                        "enable":  true,
+                                        "fc":  7730
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  8072
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.2,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.2,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.2,
+                                        "enable":  true,
+                                        "fc":  9192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -2.9,
+                                        "enable":  true,
+                                        "fc":  9599
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.2,
+                                        "enable":  true,
+                                        "fc":  10024
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.9,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.7,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.6,
+                                        "enable":  true,
+                                        "fc":  10468
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.1,
+                                        "enable":  true,
+                                        "fc":  10932
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4.5,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.7,
+                                        "enable":  true,
+                                        "fc":  11416
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -4,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.9,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.7,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.5,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -3.2,
+                                        "enable":  true,
+                                        "fc":  11921
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "FDD77167",
+                                       "slot1Slope":  3,
+                                       "slot1Fc":  2500,
+                                       "slot0Fc":  250,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  4,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  8,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  354
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  421
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  480
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  480
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  501
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  523
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  773
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  773
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  807
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  843
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  880
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  919
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  919
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1002
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1142
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1192
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  1480
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1686
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1761
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1838
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1838
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1920
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1920
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  2005
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  2094
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  2186
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  2186
+                                    },
+                                    {
+                                        "q":  4.3,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  10023
+                                    },
+                                    {
+                                        "q":  4.3,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  12619
+                                    },
+                                    {
+                                        "q":  4.3,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  15886
+                                    },
+                                    {
+                                        "q":  4.3,
+                                        "gain":  0,
+                                        "enable":  true,
+                                        "fc":  20000
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "B897D3D8",
+                                       "slot1Slope":  3,
+                                       "slot1Fc":  2500,
+                                       "slot0Fc":  250,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  5,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  8,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  339
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  421
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  460
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  480
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  501
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  523
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  547
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  571
+                                    },
+                                    {
+                                        "q":  12,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  596
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  596
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  596
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  709
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  740
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1,
+                                        "enable":  true,
+                                        "fc":  740
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  773
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  807
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  843
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  880
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  880
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1142
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1192
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1192
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1245
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1300
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1358
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1418
+                                    },
+                                    {
+                                        "q":  14,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1480
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  2094
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  2094
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  2094
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.6,
+                                        "enable":  true,
+                                        "fc":  2094
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "713F9AC8",
+                                       "slot1Slope":  3,
+                                       "slot1Fc":  2500,
+                                       "slot0Fc":  110,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  6,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  156
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  163
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  178
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  185
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.6,
+                                        "enable":  true,
+                                        "fc":  221
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.7,
+                                        "enable":  true,
+                                        "fc":  240
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.7,
+                                        "enable":  true,
+                                        "fc":  240
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  262
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  312
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  340
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.6,
+                                        "enable":  true,
+                                        "fc":  371
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  404
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  404
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  422
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  651
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  775
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  845
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  1.4,
+                                        "enable":  true,
+                                        "fc":  845
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.6,
+                                        "enable":  true,
+                                        "fc":  845
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.7,
+                                        "enable":  true,
+                                        "fc":  845
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.7,
+                                        "enable":  true,
+                                        "fc":  845
+                                    },
+                                    {
+                                        "q":  8,
+                                        "gain":  1.3,
+                                        "enable":  true,
+                                        "fc":  921
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1144
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  1195
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  1248
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.6,
+                                        "enable":  true,
+                                        "fc":  1303
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.9,
+                                        "enable":  true,
+                                        "fc":  1421
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.9,
+                                        "enable":  true,
+                                        "fc":  1421
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  1618
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  1689
+                                    },
+                                    {
+                                        "q":  6,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  1689
+                                    }
+                                ]
+                  },
+                  {
+                      "passband":  {
+                                       "mCrc":  "8DC3528F",
+                                       "slot1Slope":  3,
+                                       "slot1Fc":  1000,
+                                       "slot0Fc":  140,
+                                       "slot0Type":  1,
+                                       "slot0Slope":  3,
+                                       "slot1Type":  1
+                                   },
+                      "path":  7,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "q":  10,
+                                        "gain":  2.4,
+                                        "enable":  true,
+                                        "fc":  182
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.5,
+                                        "enable":  true,
+                                        "fc":  182
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.5,
+                                        "enable":  true,
+                                        "fc":  182
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.9,
+                                        "enable":  true,
+                                        "fc":  190
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.9,
+                                        "enable":  true,
+                                        "fc":  190
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2,
+                                        "enable":  true,
+                                        "fc":  198
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.1,
+                                        "enable":  true,
+                                        "fc":  207
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2,
+                                        "enable":  true,
+                                        "fc":  216
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.1,
+                                        "enable":  true,
+                                        "fc":  226
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.1,
+                                        "enable":  true,
+                                        "fc":  236
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.9,
+                                        "enable":  true,
+                                        "fc":  246
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  257
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  269
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.2,
+                                        "enable":  true,
+                                        "fc":  269
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1,
+                                        "enable":  true,
+                                        "fc":  334
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.3,
+                                        "enable":  true,
+                                        "fc":  349
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.5,
+                                        "enable":  true,
+                                        "fc":  364
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.6,
+                                        "enable":  true,
+                                        "fc":  380
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.8,
+                                        "enable":  true,
+                                        "fc":  397
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.7,
+                                        "enable":  true,
+                                        "fc":  415
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.7,
+                                        "enable":  true,
+                                        "fc":  433
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.4,
+                                        "enable":  true,
+                                        "fc":  452
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.2,
+                                        "enable":  true,
+                                        "fc":  472
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  -1.1,
+                                        "enable":  true,
+                                        "fc":  493
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  697
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.1,
+                                        "enable":  true,
+                                        "fc":  697
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  760
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  1.5,
+                                        "enable":  true,
+                                        "fc":  760
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2,
+                                        "enable":  true,
+                                        "fc":  829
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.2,
+                                        "enable":  true,
+                                        "fc":  866
+                                    },
+                                    {
+                                        "q":  10,
+                                        "gain":  2.2,
+                                        "enable":  true,
+                                        "fc":  866
+                                    }
+                                ]
+                  }
+              ],
+    "dspcfg":  {
+                   "ok":  true,
+                   "bodyBytes":  2004,
+                   "bodyHex":  "5AA52EA5FFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF0000FF0000001E001E001E001E00000000006C008C0000000000000000000000000000000000A0001E009E02F40164004E021E00CB0100000000000000000000000000000000FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF0000001E001E001E001E001E001E001E001E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF0000001E001E001E001E001E001E001E001E000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000FF000000FF0000FFFF0000FFFF000000000000000000000000000000000000E9D77208",
+                   "wireHex":  "55AA01F6010000005AA52EA5FFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF00000000FFFFFFFF0000FF0000001E001E001E001E00000000006C008C0000000000000000000000000000000000A0001E009E02F40164004E021E00CB0100000000000000000000000000000000FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF0000001E001E001E001E001E001E001E001E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FF0000001E001E001E001E001E001E001E001E000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000FF000000FF0000FFFF0000FFFF000000000000000000000000000000000000E9D7720800EA9378"
+               },
+    "captured":  "2026-10-16T09:38:09.2382237-04:00",
+    "info":  {
+                 "open":  true,
+                 "error":  "",
+                 "vid":  "0x1483",
+                 "pid":  "0x1095",
+                 "mem":  1,
+                 "path":  0,
+                 "source":  0,
+                 "sourceName":  "High-level",
+                 "byPass":  false,
+                 "groupDb":  [
+                                 -6,
+                                 0,
+                                 -6,
+                                 -2.8
+                             ],
+                 "mainDb":  -3,
+                 "mute":  false,
+                 "groupMask":  1,
+                 "deviceMask":  1,
+                 "bandGainDb":  [
+                                    -5,
+                                    -0.5,
+                                    4.6,
+                                    -5.9,
+                                    12,
+                                    0.3,
+                                    -0.8,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    2.8,
+                                    10.1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                 "bandEnabled":  [
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true,
+                                     true
+                                 ],
+                 "bandQ":  [
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1,
+                               1
+                           ],
+                 "bandHz":  [
+                                20,
+                                25,
+                                31,
+                                40,
+                                50,
+                                63,
+                                80,
+                                100,
+                                125,
+                                160,
+                                200,
+                                250,
+                                315,
+                                400,
+                                500,
+                                630,
+                                800,
+                                1000,
+                                1250,
+                                1600,
+                                2000,
+                                2500,
+                                3150,
+                                4000,
+                                5000,
+                                6300,
+                                8000,
+                                10000,
+                                12500,
+                                16000,
+                                20000
+                            ],
+                 "defaultBandHz":  [
+                                       20,
+                                       25,
+                                       31,
+                                       40,
+                                       50,
+                                       63,
+                                       80,
+                                       100,
+                                       125,
+                                       160,
+                                       200,
+                                       250,
+                                       315,
+                                       400,
+                                       500,
+                                       630,
+                                       800,
+                                       1000,
+                                       1250,
+                                       1600,
+                                       2000,
+                                       2500,
+                                       3150,
+                                       4000,
+                                       5000,
+                                       6300,
+                                       8000,
+                                       10000,
+                                       12500,
+                                       16000,
+                                       20000
+                                   ],
+                 "pathProbe":  "",
+                 "outputsIndependent":  false,
+                 "masterEqDistinct":  false,
+                 "outPathCount":  8,
+                 "outPathCountSource":  "device",
+                 "outputKnown":  [
+                                     false,
+                                     false,
+                                     false,
+                                     false
+                                 ],
+                 "outputMute":  [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ],
+                 "outputGainDb":  [
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      0
+                                  ],
+                 "outputDelayMs":  [
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0,
+                                       0
+                                   ],
+                 "outputRevert":  [
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false,
+                                      false
+                                  ]
+             }
+}

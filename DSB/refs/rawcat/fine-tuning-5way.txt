@@ -1,0 +1,131 @@
+RAW-CAt - "fine tuning" (the 5-way tuning series)
+Transcript taken down by the owner 2026-10-23 and saved here verbatim.
+Source channel: RAW-CAt. This is SOURCE MATERIAL, not doctrine - the digest that was
+derived from it lives in TUNE-PLAYBOOK.md §9.0.1. Where this conflicts with what the
+car can actually measure, the playbook wins.
+
+Note: Rawcat's rig here is a 5-way with a front sub + IB sub; he had lost his sub amp
+during this session, so it ran as a 4-way. He has separate left/right DSP channels for
+every driver - the user's Lincoln does not (paths 4-7 are mono pairs).
+
+---
+
+[00:00:06] hello everyone so today i will be continuing the series of the 5-way tuning and today is going to be
+[00:00:16] a different different because i already did everything that i wanted to do in the car because i was experimenting
+[00:00:22] a lot and i'm just going to go through through everything what i did so it's not going to be
+[00:00:28] live it's not going be two and a half hours or whatever but we're gonna go through this fast because
+[00:00:33] this i just call it fine tuning just solving some problems that i had before so um first of all
+[00:00:41] i did this home impulse i have a whole tutorial about it so that's why i didn't go and do
+[00:00:48] it again i just want to show you what i managed to do because this time i looked more at
+[00:00:57] the phase graphs than the actual impulse response so i don't have my ib sub my rear sub i have
+[00:01:08] only my front sub and the front stage because my sub-amplifier uh is gone for now it's went uh for
+[00:01:20] fixing but anyway i don't have any um ib sub so it's gonna be like four way at the moment
+[00:01:28] but i'm gonna add this up later on when this amp is gonna arrive fixed so uh front sub
+[00:01:37] i did the time timing at zero i have a phase graph which i paid more attention to it and
+[00:01:46] after this when i added a mid bass left and right you can see at the bottom here the impulse
+[00:01:58] response looks fine start time is fine but the most important thing is this um these phase graphs phase lines
+[00:02:08] so basically what i did i uh aligned kind of in at zero and then i played with the timing
+[00:02:17] plus like 0.2 milliseconds 0.4 just to have these lines aligned and i got them pretty much spot-on from
+[00:02:30] i want to say 40 all the way up to 300 plus so basically in all the range they play
+[00:02:39] very very nice together and if i had the front sub as well as you can see so on the
+[00:02:45] impulse response that's what i was having trouble before because if you look at the impulse response is a bit
+[00:02:51] different it looks like it's off but if you look at the phase graphs they're following each other and the
+[00:02:59] sub is falling up to like 150 here and then it falls off but here in the crossover regions about
+[00:03:08] between again between 40 and up to 150 it's spot on so i just align these then i went to
+[00:03:19] the mid-range so let's have a look left mid-range and   right mid-range i'm just gonna drag these there we
+[00:03:35] go
+[00:03:38] there we go so it is a bit of a messy but again it looks like zero close to zero
+[00:03:45] but what i did if you see the mid the mid bass it's going is starting to rise here so
+[00:03:52] it's very difficult to time align with the impulse but what i did the crossover region is 200 i crossed
+[00:03:59] them at 200 both and i have from 100 up to 300   very good   um phase response phase match
+[00:04:09] between all of those drivers and if you can see if i'm going to remove the base   left mid-range
+[00:04:19] balloon yeah it's blue and you can see there's an extra   phase graph face wrap and basically this is
+[00:04:29] a phase issue that i have and actually at this frequency if i'm going to add amplitude see the blue
+[00:04:37] one the dip that's a problem with face so this is i actually tested it it's a reflection from the
+[00:04:46] driver's side window and i literally cannot do anything about it because i drive with my windows closed so
+[00:04:51] i was playing with some all-past filters and it did it didn't help to be honest i don't know why because
+[00:05:00] when i add an all pass filter at 500 hertz here with the queue of four i have the red
+[00:05:09] face   another wrap and it matches but if i take rta measurements there's a bigger   dip and gap
+[00:05:20] so i don't know i just left it at the moment without the all pass filter but they match pretty
+[00:05:25] nice and now let's have a look at tweeters last one so left tweeter and right twitter here so with
+[00:05:42] the tweeters as you can see it is a bit of messy here with   there you go it is
+[00:05:51] a bit of a messy but if i
+[00:05:58] i'm gonna try to do this the red one i cannot even see the red one now there we go
+[00:06:12] so this is i think it's called gating
+[00:06:17] and what it does it just changes you can see the the phase wraps change so i don't know if
+[00:06:27] i did this correctly because what i did i just put them very close to here to the end make
+[00:06:38] them kind of aligned to each other and what i did i tried to make the best out of this
+[00:06:45] area which is like 2k because they crossed about   it 2k so my tweeters have a crossover 1.9 and the
+[00:06:53] mid range is 2.2 and i have i don't remember so i tried to make this region look nice and
+[00:07:00] it kind of looks nice i don't know they look out of face tweeters but the thing is if i
+[00:07:07] put one of the tweeters out of phase the phase wrap changes so i don't really know what to do
+[00:07:13] here if you   have any advice leave a comment and basically this is how i did the time alignment
+[00:07:19] and phase which ended up very very nice and now the rta
+[00:07:28] so let's start from i took again just for myself   a mid base pair mid-range pair and then i
+[00:07:38] realized that i have problems with the mid-range because it's not that nice the bass is fine and we have
+[00:07:44] problems with the tweeters as well so what i did with the mid-range is let me just zoom in a
+[00:07:51] bit
+[00:07:56] there you go so i did play with all pass filter one all pass filter helped a bit but then
+[00:08:04] or i don't remember if it was this or this one of them is with a wall best filter and
+[00:08:11] i do believe i don't remember i don't remember honestly because it's if you can see it's past me that
+[00:08:18] already but i did play with the all past filters and one time it helped the other one it didn't
+[00:08:24] help so i checked the summation between mid bass and mid-range it summed   nice so after the timing if
+[00:08:34] you remember i had a big heat dip previously i have actually i think i have it here yeah that's
+[00:08:43] the one so i had this dip at 150 and now after the timing is done after phase is aligned
+[00:08:53] properly   everything is fine so summation is nice but i needed to clean up these mitts to work on
+[00:09:02] them a bit so i took left and write mid separately
+[00:09:11] then overlaid the same house curve that i had target curve and as you can see it doesn't really match
+[00:09:19] so at above 1k it kinda rolls off so what i did is i eq'd them again because i have
+[00:09:30] extra bands left so right mid ftq and left mid ftq which looks much nicer yeah instead of this they
+[00:09:41] look much much nicer and then they summed up nicer as well just remove this so it was this before
+[00:09:55] the eq and this the top one is after second round of eq and then what i realized if i
+[00:10:03] overlay
+[00:10:06] this target again which is it
+[00:10:13] mid-range there we go
+[00:10:20] so if i put it on top it is nicer however if you can see this is not following still
+[00:10:29] and somebody mentioned in the comments which   i was surprised about this that at the lower frequency you have
+[00:10:37] more estimation so like it's sums plus six db and at the higher higher frequencies is some less so like
+[00:10:45] the mid bass they're gonna sum plus 6 db and tweet is going to sum plus 3 db and i
+[00:10:53] think this is the example that at higher frequencies they sum up less so what i did i just   um
+[00:11:02] boosted a bit that   top end of the pair it's like   plus three db at like 3k with
+[00:11:13] a queue of i think 0.5 or something like that and basically now my mids are following   the targets
+[00:11:24] much much much better because it was like this before and i was like this so that's my minutes and
+[00:11:34] then i did exactly the same for the tweeters i have left tweeter right tweeter just move in and the
+[00:11:46] curve and again if i'm gonna overlay the the target you can see it's not as nice so i have
+[00:11:59] a hump here a hump here and what i did i eq'd the tweeters again on top so that's one
+[00:12:09] tweeter right and left tweeter remove this there and you can see it follows the target much much much nicer
+[00:12:21] and then i have both tweeters playing together which again when they sum they don't sum perfectly so the tweeter
+[00:12:33] pair i ran through eq again and then i had a much much nicer
+[00:12:46] correlation they they follow each other very very nice so i did these so these both my tweeters and both
+[00:12:57] midi cute and then instead of boosting the tweeters i lower down the mids a bit to brought them down
+[00:13:06] 3db and then i checked the summing and what i did i was playing with again somebody suggested just to
+[00:13:15] play with different crossover types not crossover points but crossover types so instead of link with riley i chose i
+[00:13:28] went through all of them and i think bezel or i don't know how to pronounce i think it's bezel
+[00:13:34] bezel fitted this best and now i have a very very nice summation between
+[00:13:45] the tweeters in the mids and as the last step i added the mid bass summed up nicely and then
+[00:13:55] added the sub the front sub and again i don't have the rear sub the ib sub which would cover
+[00:14:03] the top bottom bottom end so that i have that at the moment so but it's going to be very
+[00:14:09] easy to add so i had this this and then i realized that i have a little bit too much
+[00:14:17]   mid bass because if you can see from like 200 it starts rising from 250 but like from 200
+[00:14:28] up to down to 100 i have like plus 6 db which is a bit too much it's a bit
+[00:14:36] too much midi bass so i just reduce the mid bass and i reduce it again just a tiny bit
+[00:14:43] and i ended up with this curve and i if i compare this to what i had a few days
+[00:14:53] ago i had this so basically you can see the ib sub that's missing which is fine so i had this
+[00:15:03] dip which was caused by timing and this dip because of summation and the tweeters and mid range not
+[00:15:14] following the slopes ideally so what happened is basically i dropped   not dropped but yeah i kind of dropped
+[00:15:24] the tweeters and the mids and now everything is much more linear so let me just show you very quickly
+[00:15:33] with no smoothing applied at all
+[00:15:38] no smoothing there we go so with no smoothing it's fine so like here between one and two and a
+[00:15:46] half k there's this even if i have the smoothing at let's say one octave smoothing yeah you can see
+[00:15:56] there's like a like a scoop out or whatever so i'm gonna leave this for now because i kind of
+[00:16:02] like   i listen to a lot of rock and metal as well and here this area everybody says it's
+[00:16:10] a bit harsh and people do like to scoop out   one or two db between one or two k
+[00:16:18] so i'm gonna listen to this if i'm not gonna like it i'm just gonna bring it back it up
+[00:16:24] to make it more flat but with no smoothing at all as you can see it looks much much much
+[00:16:31] nicer so i have i think this is 730 is phase issue with the mids and the same at 350.
+[00:16:42] so i don't know i will need to try to play with maybe all pass filters something else maybe you
+[00:16:47] have any suggestions write in the comments and yeah this is what i end up with today after timing after
+[00:16:55] phase alignment and after some extra eq and i'm very happy with it i did listen to it my center
+[00:17:02] stage is spot on where it's supposed to be in between the mids in the middle of the dash i'm
+[00:17:08] very very happy about it and again thank you very much for watching and i will see you in the
+[00:17:14] next one

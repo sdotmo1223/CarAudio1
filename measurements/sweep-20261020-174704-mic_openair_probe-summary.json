@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T17:47:17",
+    "name":  "mic_openair_probe",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  10,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-174704-mic_openair_probe.wav",
+    "result":  "sweep-20261020-174704-mic_openair_probe.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

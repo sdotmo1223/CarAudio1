@@ -1,0 +1,182 @@
+DreTunes self-test  [MUTANT RUN - failures are the point]
+root: C:\Users\sdotm\OneDrive\Documents\Default Project\ds18-bridge
+
+json
+  PASS  parses a plain object
+  PASS  reads a number
+  PASS  reads an array
+  PASS  reads nested null
+  PASS  reads a negative nested number
+  PASS  decodes \u escapes
+  PASS  a truncated payload throws
+  PASS  trailing text throws
+  PASS  a bare word throws
+  PASS  an unterminated string throws
+  PASS  writer round-trips a number
+  PASS  writer round-trips a bool
+  PASS  writer escapes quotes
+  PASS  writer is culture-proof
+
+.idsp parsing
+  PASS  the library scans
+  PASS  one memory block, per the owner's 2026-10-22 rule
+  PASS  17 outputs in a block
+  PASS  31 EQ bands per output
+  PASS  the direct-child rule kept HP and EQ apart
+  PASS  all four blocks carry the same tune
+  PASS  tune 1 has 57 bands on the live paths
+  PASS  tune 2 has 41 bands on the live paths
+  PASS  tune 2 has no Q above 2.8
+  PASS  a gain of -30 is stored as -30 (not scaled)
+  PASS  tune 1 asks +16.0 dB more than tune 2 on path 6
+
+curve mirror (tune\idsp.py)
+  PASS  idsp.py curve runs
+  PASS  the curves were compared at idsp.py's key frequencies
+  FAIL  Curve.cs agrees with idsp.py within 0.06 dB (print rounding)  -- worst difference 7.700 dB
+  FAIL  exact-frequency evaluation stays within 0.3 dB of the interpolated readout  -- worst 7.700 dB
+
+device-vs-file matching
+  PASS  a device holding tune 2's bands matches tune 2
+  PASS  ...cleanly, on all 8 paths
+  PASS  Analysis.Diff agrees the readback matches
+  PASS  a 1 dB change on one band is NOT a clean match
+  FAIL  the difference is counted  -- band diffs 0
+  PASS  a 0.10 dB error stays inside the tolerance
+
+wrong-memory guard
+  PASS  the playing memory is allowed
+  FAIL  another memory is refused  -- allowed
+  FAIL  the refusal names the reason  -- target accepted
+  PASS  an explicit override allows it
+  FAIL  the override is labelled in the reason  -- target accepted
+  FAIL  a dead link refuses even the playing memory  -- a write with no readback was allowed
+
+compare prose
+  PASS  eight paths compared
+  PASS  the biggest gain change is the rear 6.5" (path 7)
+  PASS  ...and it is +17.1 dB
+  PASS  the front 8" moved +16.0 dB, not the most
+  PASS  the sentence quotes 16.0 dB louder
+  PASS  the sentence quotes 17.1 dB on the rear 6.5"
+  PASS  the sentence says the delays are identical
+  PASS  the sentence quotes both band counts
+  PASS  the sentence is generated, not stored
+
+narrow-band width
+  PASS  tune 1 has no band narrower than a quarter octave
+  PASS  the source voicing is full of them
+  PASS  Q 1.0 is about 1.39 octaves wide
+  PASS  Q 10 is about 0.14 octaves wide
+
+copied-measurement detector
+  PASS  tune 1 has no filter copied between drivers
+  PASS  an identical narrow notch on two pairs IS flagged
+  PASS  the flag names both channels
+  PASS  a different value is not flagged
+
+crossover comparator (doctor's four cases)
+  PASS  unchanged reads as closed
+  PASS  one changed path is named, and only it
+  PASS  a changed high edge is caught too
+  PASS  reads without a path are unproven, not unchanged
+  PASS  an unnamed read is not clean
+
+tool output parsing
+  PASS  verify-swap-tunes.py runs
+  PASS  it prints 52 ok lines
+  PASS  it prints no FAIL lines
+  PASS  and the gate therefore passes
+  PASS  "0 failure(s)" is not counted as a failure
+  PASS  a FAIL line is counted
+  PASS  a FAIL line fails the gate even on exit 0
+  PASS  FAILED is a failure too
+  PASS  a non-zero exit fails the gate even with ok lines
+
+measurement files
+  PASS  the measurement folders scan
+  PASS  eight channels
+  PASS  channel 1 maps to path 0
+  PASS  61 points on the 1/6-octave grid
+  PASS  its peak is -46.0 dBFS
+  PASS  at 4561.4 Hz
+  PASS  the gate verdict is read from the file
+  PASS  the first point is 20 Hz
+  PASS  the units are absolute dBFS, not normalised
+  PASS  the csv sibling is named for the channel
+
+snapshot format (apply-tune.ps1 contract)
+  PASS  the snapshot is written
+  PASS  it parses back
+  PASS  it carries at / tag / mem
+  PASS  it carries the complete 16-entry command-11 block
+  PASS  the block keeps an untouched path 15
+  PASS  it carries 8 paths
+  PASS  a band carries fc / gain / q / enable
+  PASS  byPass is carried
+  PASS  all 31 slots are present
+
+evidence on disk
+  PASS  revert points are listed
+  PASS  they are newest first
+  PASS  each one carries a memory index
+  PASS  a crossover baseline is found
+  PASS  its tweeter high-pass is 1500 Hz
+  PASS  its 8" high-pass is 50 Hz
+
+tune table (read-only projection)
+  PASS  the tune under test is in the library
+  PASS  level falls back to the tune file when command 11 is unknown
+  PASS  the level is the .idsp's own -6.8 dB
+  PASS  the level prints with a real minus sign
+  PASS  the delay is the .idsp's 5.4 ms
+  PASS  polarity is normal for this path
+  PASS  the tweeter high pass prints LR24, not LR18
+  PASS  the tweeter high pass names 1.5 kHz
+  PASS  a switched-off low pass prints OPEN, not its stored 20 kHz
+  PASS  the crossover columns name the file as their source
+  PASS  a file's enable bit is what makes OPEN possible
+  FAIL  the readback's low edge is the high-pass  -- 20000
+  FAIL  the readback's high edge is the low-pass, and it is kept  -- 1500
+  FAIL  the two edges do not swap their slopes  -- 2/3
+  PASS  a readback cannot claim a filter is switched off
+  FAIL  the Tune table offers no writable column  -- 5
+  FAIL  a click on the third row selects channel 3  -- row mapping
+  PASS  a click in the header selects nothing
+  PASS  a click past the last row selects nothing
+
+channel mute (command 11 - the only write on the Tune surface)
+  PASS  a mute is refused when the bridge is down
+  PASS  a mute is refused when the playing memory is unknown
+  PASS  a mute is refused when the amplifier has moved memory
+  PASS  a mute is refused when no command-11 block is known
+  PASS  path 16 is outside command 11 and is refused
+  PASS  a mute on the playing memory is allowed
+  PASS  the target channel is the one that flips
+  FAIL  every other channel's entry is carried through untouched  -- a one-channel mute rewrote path 0
+  FAIL  exactly one field differs from the mirror  -- 16 field(s) changed
+  PASS  the block keeps the amplifier's out path count
+  FAIL  unmuting flips the muted channel back, one field  -- False / 16
+  FAIL  the result says mirror, and never claims verification  -- CH 4 muted — verified by the amplifier's readback.
+  FAIL  the result names command 11 as having no readback  -- CH 4 muted — verified by the amplifier's readback.
+  PASS  a mute writes a revert point before it sends
+  PASS  the revert point is named as a command-11 block
+  PASS  the revert point parses
+  PASS  it is not shaped like a tune snapshot
+  PASS  it holds the complete 16-entry block
+  PASS  it tells a human not to restore it as a tune
+  PASS  it keeps the untouched path 15 gain
+
+units
+  PASS  slope 3 prints LR24, not LR18
+  PASS  the crossover text names the frequency
+  PASS  a real minus sign is used
+  PASS  memory guard: channel 1 is path 0
+  PASS  the sub has no channel row
+  PASS  command 11 stops at path 15
+  PASS  the curve grid is 61 points
+  PASS  the grid's last point is 20480 Hz, matching idsp.py
+  PASS  the grid starts at 20 Hz
+
+selftest: 128 passed, 17 failed
+mutant run failed 17 assertion(s), as it must.

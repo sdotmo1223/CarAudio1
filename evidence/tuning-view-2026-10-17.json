@@ -1,0 +1,61 @@
+{
+  "feature": "Unified tuning view (Improvement 1): measurement + target overlays on the EQ composite canvas",
+  "date": "2026-10-17",
+  "file": "ds18-bridge\\web\\index.html",
+  "bridge_change": false,
+  "rebuild_required": false,
+  "applied_via": "HTML/JS edit + page reload (bridge already running with all prior patches)",
+  "syntax": { "node_check_exit": 0, "script_chars": 125243, "script_tags": 1 },
+
+  "what_was_built": {
+    "chip": "eqOv 'Meas + target' in EQ chips row, default on, persisted localStorage['ds18.eqOv']",
+    "layers": {
+      "measurement": "#e6ecf5 solid 2px - live mic (10-frame poll-history average) when fresh, else tapped-or-latest saved capture, else 'no measurement'; pinned at plot edge beyond span",
+      "target": "#b38cff dashed [6,4] 2px - per-channel LR24 slice (tgtAt + tgtHpDb/tgtLpDb, same math auto-EQ will use); line BREAKS outside +/-span instead of plunging"
+    },
+    "alignment": "eqOvWin() = channel passband [hp||20 .. lp||20000], fallback 200-5000; measurement centered at own passband mean = 0 dB line; target centered on same footing; shape-only (no SPL anchor yet)",
+    "freshness": "RTA.lastOk timestamp set on poll success; <2s = live, else saved capture",
+    "polling": "showTab starts rtaPoll for eq tab while overlay on; chip off calls rtaStop; eqOvRefresh redraws composite canvas on each poll while eq tab active",
+    "renderCurve": "now returns {X, Y, padL, padT, pw, ph, lMin, lMax, span}; overlays never feed y-span (EQ keeps own +/- scale)"
+  },
+
+  "bug_found_and_fixed_during_verification": {
+    "symptom": "target slice drew as 2 stray violet pixels",
+    "cause": "target shifted by the measurement's RAW mean (~-95 dBFS quiet mic) while the measurement is drawn CENTERED at 0; plus fixed 200-5k window centers a tweeter slice's high-pass dive, pushing the passband above the plot top",
+    "fix": "alignment window = channel passband; target shift = -(own passband mean), independent of raw measurement level"
+  },
+
+  "probes": [
+    { "test": "CH0 tweeter slice (HP2000, Whitledge)", "result": "489-491 violet px, y77-170 inside plot, HP shoulder at window edge", "pass": true },
+    { "test": "CH6 band-pass slice (HP150/LP2000) after rail click + tab round-trip", "result": "591 violet px spanning 94 Hz - 2198 Hz (shoulders enter/exit plot at crossover window)", "pass": true },
+    { "test": "live measurement overlay (rta.exe :8586 up)", "result": "2180-3167 white px; legend 'meas live'; polls run on EQ tab without ever visiting RTA tab", "pass": true },
+    { "test": "saved-capture fallback (synthetic {name:'fb-test', db[61]} injected pre-boot; atomic enter-EQ+probe while lastOk=0)", "result": "2096 white px, legend 'meas fb-test', localStorage restored to empty", "pass": true },
+    { "test": "toggle off", "result": "0 white / 0 violet px, legend plain 'composite', chip class 'chip', stored '0'", "pass": true },
+    { "test": "toggle on", "result": "2252 white / 593 violet px, legend full, chip 'chip on', stored '1'", "pass": true },
+    { "test": "poll gating (fetch count to :8586)", "result": "181 -> 181 (delta 0) while overlay off on EQ tab; +108 after re-enable", "pass": true },
+    { "test": "console errors (whole session: load, tab trips, channel switch, toggles)", "result": "0 errors", "pass": true },
+    { "test": "legend provenance", "result": "'CH n | 20 Hz - 20 kHz | composite | meas <live|name|none> | target <TGT.name>'", "pass": true }
+  ],
+
+  "screenshot": "EQ tab CH0: white mic noise-floor curve, flat purple composite at 0 dB, violet dashed Whitledge tweeter slice diving under 2 kHz, legend 'CH 0 | composite | meas live | target Whitledge'",
+
+  "not_yet_verified": [
+    "phone touch on real device (synthetic desktop events only)",
+    "overlay alignment under real pink-noise stimulus with mic in cabin (parked session)",
+    "saved-capture fallback rendering of a real in-car capture (only synthetic tested)"
+  ],
+
+  "revert": {
+    "scope": "web/index.html only - reload to apply, no rebuild",
+    "steps": [
+      "remove chip <div class='chip on' id='eqOv'> from EQ chips row",
+      "remove eqOv addEventListener binding and the boot line 'eqOv.classList.toggle' after rtaMeasRender()",
+      "remove overlay block (EQ_OV, eqOvWin, eqOvMean, eqOvMeas, eqOvTgt, drawEqOverlay, eqOvRefresh) after drawEqCurve",
+      "restore drawEqCurve to set eqLegendNote directly (drop map capture + note suffix)",
+      "remove renderCurve 'return {X: X, ...}' block",
+      "restore RTA state literal (drop lastOk), rtaPoll (drop lastOk + eqOvRefresh lines), showTab (restore single-line rtaStart/rtaStop)"
+    ]
+  },
+
+  "doc": "DS18_DSP_protocol.md section 21"
+}

@@ -1,0 +1,136 @@
+RAW-CAt - "crossovers and targets" (the 5-way tuning series)
+Transcript taken down by the owner 2026-10-23 and saved here verbatim.
+Source channel: RAW-CAt. SOURCE MATERIAL, not doctrine - the digest derived from it is
+TUNE-PLAYBOOK.md §9.0.3. Where this conflicts with what the car can actually measure,
+the playbook wins.
+
+WARNING: this transcript is TRUNCATED. It stops mid-sentence at ~[00:19:22] while he is
+working on the subwoofer's 26 Hz peak. Everything after that point is missing. The
+crossover-selection method is intact; the sub section is not.
+
+His rig: IB sub + 3-way front (midbass / midrange / tweeter) + a front subwoofer that was
+not yet properly installed. He is in the UK, so his left/right naming is mirrored relative
+to US convention (his right = driver's side).
+
+---
+
+[00:00:06] hello lovely people so today is gonna be a long one i don't know how i'm gonna do this because
+[00:00:12] um i would like to do the whole   eq part for the whole   five-way system and i have
+[00:00:21] no idea how long it's gonna take me probably a long time but i don't wanna skip anything i don't
+[00:00:27] wanna do just you know rta graphs i would like to go through all the process so you would know
+[00:00:34] you'll see actually how long does it actually take so   if it's going to be too long probably i'm
+[00:00:40] going to split it in a few different videos like maybe 10 or 15 minutes each we'll see it depends
+[00:00:47] how long it's gonna take me so   let me very quickly run through what i've did and what i
+[00:00:53] have so since i rebuilt my boot i have
+[00:01:01] i had to change some of the channels on my dsp and basically i'll have to redo everything anyway so
+[00:01:07] i have an ib sub and so the last two channels ib sub i have three way front   so
+[00:01:16] it's   front mid bass front tweeters and   mid range and i'm gonna play with front subwoofer so at
+[00:01:26] the moment it's not really installed it's just behind the rear seats but it's just for playing is just
+[00:01:32] you know just to practice just to have fun so i have my input outputs done   i went to the
+[00:01:40] amps and made sure that all the gains are set to   minimum so all gates are down   the
+[00:01:48] time alignment i left it as it was from before and a double check with the tape measure so it's
+[00:01:55] issue but with tamanna we're gonna it's just these are initial time alignments so we're gonna fix it later on
+[00:02:01] we're gonna do impulse response and what i did i set some basic crossovers but we're going to skip it
+[00:02:11] for now because first what i want to do is i want to take the whole system raw response with
+[00:02:20] no crossovers and just see how the drivers perform and then depending on that i'm gonna use jazzy's tuning companion
+[00:02:31] to set to see where my crossovers fall so let's do this first of all let's take all the measurements
+[00:02:41] of all the raw drivers okay so let's start with a let's start with the tweetsis if you want to
+[00:02:52] know how to set up rew i have a video for that but i'm gonna go just straight for straight
+[00:03:00] to the measuring part so i have f i'm gonna untick it so you will hear a lot of pink
+[00:03:09] noise because i will be playing pink noise and it's gonna go through the same mic that i'm recording so
+[00:03:14] you will have pink noise if i'm not gonna edit it i do apologize if it's gonna be too painful
+[00:03:20] for you so first of all let's check the level
+[00:03:26] yeah that's fine okay first measurement
+[00:03:50] okay so that's my right tweeter i'm gonna save current so this   spike at 170 is something buzzing
+[00:04:00] in my car i don't know some like ecu or whatever so i'm just gonna ignore it so first that's
+[00:04:08] gonna be my   right tweeter let's do the
+[00:04:26] left
+[00:04:45] okay so as you can see i'm taking between 50 and 100 averages when it stops   when it stops
+[00:04:51] changing the response then i call it the goods so for tweeters i set up a crossover at a thousand
+[00:04:57] hertz for protection at 12 db just to have some protection these tweeters have an fs of 740 i think
+[00:05:07] so these are the new twitters that i have i haven't tried them before that's why it's very interesting to
+[00:05:11] try   that's gonna be l tweet so left tweeter so these are tweeters now let's go for the mid-range
+[00:05:24] mid left
+[00:05:29] so i need to bypass the crossovers forgot
+[00:05:36] okay
+[00:06:06] okay that's the left mid current i'm just going to see a very quick measure and then we're going to
+[00:06:12] analyze so l mid
+[00:06:17] no right
+[00:06:26] yeah forgot the crossovers again so let me put back this one right mid bypass bypass so i'm playing them
+[00:06:36] down to zero whatever because   my mids are five inch so they they can easily play down to
+[00:06:46] whatever
+[00:07:09] okay save current and that's gonna be all right and   i'm in the uk so my   left and
+[00:07:23] right is kinda mixed to the u.s so i'm on the right side yeah so right is my driver's side
+[00:07:31] okay now   mid bass that's going to be front low so c and d ah okay bypass keep forgetting
+[00:07:44] the crossovers bypass and let's do the same for this one's going to be because i will forget
+[00:07:54] so full range okay see
+[00:08:24] okay
+[00:08:28] so that's a left base now the right
+[00:08:38] one
+[00:09:03] okay i'm happy with that current so that's left right base now surprise is gonna be a front subwoofer which
+[00:09:15] i didn't measure this specific one in this box in that place so i have no idea what to expect
+[00:09:23] so bypass bypass on both okay both
+[00:09:34] channels
+[00:09:48] so
+[00:09:54] okay so that's the front sub it's playing okay up to 150 not bad down to 30 40. not bad
+[00:10:07] not bad okay so that is   sub front now the rear one which is ib
+[00:10:25] okay so i don't have any level let's see if the mic is going to pick it up because there's
+[00:10:29] very very little level
+[00:10:44] okay so very very little level let me
+[00:10:53] bypass bypass and let's increase this just for the measurement
+[00:11:04] yeah okay let's take another
+[00:11:12] measurement
+[00:11:24] okay that's the ib sub so i i'm not sure if you heard anything over the mic okay   so
+[00:11:37] that is
+[00:11:40] sub rear i'm just gonna very quickly double check obs just to make sure that i'm recording because it's not
+[00:11:49] gonna record that's gonna be fun okay so yeah i have these done let me save all because i don't
+[00:11:57] want to lose anything so five way
+[00:12:05] five
+[00:12:08] way
+[00:12:12] okay so sub level is very low which i will need to okay i just realized that i had my
+[00:12:24] base knob on the controller only halfway so let me put this at zero let me crank the base and
+[00:12:36] let's make another measurement
+[00:12:43] there we go much more level because i thought something is not right okay let's mix them
+[00:13:05] okay okay so this is gonna be current
+[00:13:13] so subrear let's delete the last one and have this one there we go so i have sub level is
+[00:13:24] here perfect okay so now
+[00:13:30] okay where to start let's start with the tweeters tweeter right tweeter left okay so first of all   select
+[00:13:43] all let's apply some smoothings is gonna be easier to see because it's very messy let's put one sixth okay
+[00:13:51] cool so now   if we're gonna start from the top i need to see   where should i cross
+[00:13:59] the mids and tweeters okay so the tweeters they can play up to down to 1.4 so i can cross
+[00:14:14] them at 1 4 here and the mids for the mids
+[00:14:24] i have loads of level below 1.2 here all this peak i'm not gonna need it and here i have
+[00:14:34] and here i have a dip as well which one which side is it left so it's the the passenger
+[00:14:40] side there's a nasty dip at 5k i'm gonna try to boost it okay for the crossovers let's try
+[00:14:53] so i'm
+[00:14:56] thinking this is a very nasty area to have a crossover i'm thinking 2k something like that because for the
+[00:15:07] for the tweeters if i remove the mids so for the tweeters if i   if i remove this peak it
+[00:15:16] would be flat from below from 1k so if i'm gonna have let's see 2k down to 1 is going
+[00:15:28] to be a full octave which is going to give me a very nice slope here so 2k for tweeters
+[00:15:34] work what about mids just to double check
+[00:15:42] okay so this is a bit of a dip but from 2k up to   so up till four one has
+[00:15:51] a good response this one i'm gonna try to boost it so let's let's try 2k so i'm going to
+[00:15:58] open jazzy's tuning companion this one i'm going to put
+[00:16:06] 2 000 hertz
+[00:16:10] so for this i have here on the house curve   it says custom i have my custom is basically
+[00:16:21] everything is flat down to 200 and from 200 i have a gentle rise and i have like what 12
+[00:16:31] 12 db plus down to 20 hertz so it's like a sq for   daily i'm gonna put like maybe
+[00:16:40] four   db per octave but this is like two or three db per octave which is gentle slope so
+[00:16:47] 2 000 hertz fine now oops let's see where we're gonna cross the mids into the mid bass so first
+[00:17:02] of all   these mids i can play them down to a hundred hertz they're gonna be happy i could
+[00:17:10] cross them at a hundred they're gonna be happy it's totally fine so for the mid it doesn't really matter
+[00:17:15] how low let's check the mid bass
+[00:17:21] left and right okay so left mid bass right mid bass so this is in   in a kick one
+[00:17:29] is in the kick the right one the one that's next to me so i would say if i'm not
+[00:17:36] gonna actually i could remove this hump and they would be playing from 30 let's say up to 600 okay
+[00:17:52] so this is fine left one
+[00:17:58] okay so left one has a dip here which is not very nice so i wanna say if we're gonna
+[00:18:06] keep this like a target line from 35 up to 190
+[00:18:19] and i'm going to cross them at   so let's let's do 200 and see what happens yeah so 200 for
+[00:18:30] the   yeah so i have them 200 200. now the stuff   so i will have to do this in a
+[00:18:37] bit cheeky way because i have two subwoofers and this allows me to have only one so what i'm gonna
+[00:18:44] do now is i'm gonna have
+[00:18:49] how should i do this okay first let's check the subwoofer see that's what i mean it's going to be
+[00:18:56] a long ass video so sub rear
+[00:19:05] okay it's peaking at 25 26 26 hertz and it's starting to drop here so let's say if i'm gonna
+[00:19:22] remove this tiny peak and i'm going to leave it here

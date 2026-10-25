@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T18:00:48",
+    "name":  "mic_voice_probe",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  12,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-180032-mic_voice_probe.wav",
+    "result":  "sweep-20261020-180032-mic_voice_probe.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

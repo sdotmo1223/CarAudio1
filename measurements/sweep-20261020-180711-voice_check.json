@@ -1,0 +1,17 @@
+{
+  "tool": "sweep-tool",
+  "mode": "analyse",
+  "at": "2026-10-20 18:07:25",
+  "input": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\sweep-20261020-180711-voice_check.wav",
+  "rate": 48000,
+  "delaySamples": 249504.234,
+  "delayMs": 5198.0049,
+  "snrDb": 6.2,
+  "coef": 0.0629,
+  "windowDropDb": 2.9,
+  "windowCoveragePct": 88,
+  "ok": false,
+  "truncated": true,
+  "verdict": "the arrival is not fully inside the recording",
+  "bands": []
+}

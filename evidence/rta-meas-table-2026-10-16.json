@@ -1,0 +1,48 @@
+{
+  "what": "RTA tab saved-measurements table (REW-style) - build + verification",
+  "date": "2026-10-16",
+  "reference": "user-supplied REW screenshot: numbered rows, mini curve thumbnail, date label, 20-20.0k axis",
+  "ui": {
+    "capture": "3 s average of live calibrated curve (ring of last <=10 polls at 300 ms), stored as 61 floats + timestamp",
+    "row": "number | thumbnail (auto-scaled, decade grid, 20/20k labels, per-row color) | date | x delete",
+    "overlay": "tap row -> dashed amber curve on main plot, row highlighted, y-range widened to fit; tap again to clear",
+    "clear": "confirm dialog, wipes all",
+    "storage": "localStorage[ds18.rtaMeas], cap 24 rows, survives reload; no daemon/network involvement"
+  },
+  "verification": [
+    "3 captures rendered: rows '1Oct 16 08:15x' etc, canvases painted, toast 'saved #3'",
+    "overlay tap: row class 'measrow on', toast 'overlay #1 on big plot', dashed amber visible on plot in screenshot",
+    "page reload: 3 rows restored (localStorage 1217 bytes)",
+    "delete row 2: list renumbered to 2 rows, toast 'deleted #2'",
+    "Clear (confirm auto-answered): 0 rows, empty-state hint, localStorage '[]', toast 'all captures cleared'",
+    "repopulated 2 captures for handoff; cal (rta-cal.txt, SERNO 7170061) and UMIK [0] still active",
+    "console errors: 0 across all steps"
+  ],
+  "note": "bridge (was PID 4072) and rta had died from session restart - restarted as bridge PID 9860, rta PID 9444 (--device 0); rta auto-reloaded saved cal on boot (persistence re-verified)",
+  "layout_v2": {
+    "request": "measurement window docked LEFT of the live RTA card; Capture/Clear at the bottom of the panel",
+    "how": "panel extracted from card into .rtaMeasPanel sibling; @media(min-width:640px) flex row with order:-1 (left), list flex:1 scrolls, .measbtns margin-top:auto pinned bottom; stacked below card on phones",
+    "fixes_during": ["panel max-height corrected (calc(100vh - 235px)) after buttons overlapped the fixed bottom nav - measured btnBottom 471 < navTop 516",
+                     "date column clipped at 275px panel -> 300px panel + 11px date font; scrollWidth<=clientWidth verified"]
+  },
+  "names_v2": {
+    "request": "edit measurement names (e.g. channels)",
+    "how": ".mmeta column per row: <input class=mname> over the date; delegated 'input' listener saves RTA.meas[i].name to localStorage per keystroke (no re-render = focus kept); click guard on .mname so focusing does not toggle overlay; maxLength 40; placeholder 'name...'",
+    "verified": ["rename 'front left' via real input event -> localStorage names ['front left','']",
+                 "reload -> names intact",
+                 "click on name input -> row class stayed 'measrow' (no overlay)",
+                 "tap on canvas -> 'measrow on' (overlay still works)",
+                 "console errors: 0"]
+  },
+  "handoff_v3": {
+    "request": "save/send measurements from the phone to the computer (car use, no internet)",
+    "bridge": "new GET/POST /api/rta-meas in BridgeServer.cs; merges by capture timestamp t (idempotent), validates t + >=8-point db, sorts by t, caps 200, writes ../rta-measurements.json next to bin (project root, OneDrive-backed) - one write per click",
+    "ui": "Send to PC / From PC buttons at the bottom of the measurements panel; api() same-origin helper; From PC dedupes by t, clears overlay before re-sort, keeps newest 24 on the phone",
+    "verified": [
+      "POST -> toast 'sent 2 to the PC - PC keeps 2'; disk file has 2 entries with names 'front left'/'sub' and 61 bands each",
+      "resend -> 'sent 0 to the PC (2 already there) - PC keeps 2'; file still 2 entries",
+      "fresh-phone simulation (localStorage removed + reload, rows 0) -> From PC -> 'loaded 2 from PC - list has 2', names restored, localStorage 858 bytes",
+      "console errors: 0"
+    ]
+  }
+}

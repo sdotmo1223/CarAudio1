@@ -1,0 +1,31 @@
+=== B2: rebuild with fixed transcription check ===
+      gains PINNED to BASE_GAIN (the sweep-time device gains = tune 2): -4.6, -7.0, -7.0, -4.0, -3.0, -3.0, -14.0, -5.0
+      system-shift identity: max |dev| 7.11e-15 dB  PASS;  negative control (path 7 removed) dev 4.45 dB  PASS (detected)
+      fill path 0: 15 -> 15 bands (+0)
+      fill path 1: 18 -> 18 bands (+0)
+      fill path 2: 17 -> 17 bands (+0)
+      fill path 3: 17 -> 17 bands (+0)
+      fill path 4: 24 -> 25 bands (+1)
+      fill path 5: 24 -> 25 bands (+1)
+      fill path 6: 25 -> 26 bands (+1)
+      fill path 7: 21 -> 22 bands (+1)
+wrote web/4-maxfit-31b-2026-10-22.idsp  (124 KB, one tune)
+      transcription check: PASS  (0 mismatches)
+      negative control:    PASS (perturbation detected)
+
+stage 3 system trim: 9 shared bands/path, system residual rms 3.53 -> 2.70 dB (60 Hz-10 kHz, aligned at 300 Hz)
+path channel      bands  used/31          fit rms  base gain   delta
+   0 tweeter 1       15 15/31       7.7 -> 6.0   dB        -4.6    +0.0
+   1 tweeter 2       18 18/31       6.9 -> 6.1   dB        -7.0    +0.0
+   2 tweeter 3       17 17/31       9.0 -> 6.3   dB        -7.0    +0.0
+   3 tweeter 4       17 17/31       8.6 -> 6.7   dB        -4.0    +0.0
+   4 midrange 1      25 25/31      12.4 -> 9.5   dB        -3.0    +0.0
+   5 midrange 2      25 25/31      11.2 -> 9.3   dB        -3.0    +0.0
+   6 midrange 3      26 26/31       9.7 -> 7.2   dB       -14.0    +0.0
+   7 midbass 1       22 22/31      12.3 -> 8.4   dB        -5.0    +0.0
+
+165 bands across 8 paths (tune 1 used 57; ceiling here is 8x31=248)
+wrote tune\tune-plan-max.json
+wrote web\4-maxfit-31b-2026-10-22.idsp
+nothing has been written to the DSP - apply-tune.ps1 or the Tune tab does that, and verifies it.
+=== B2DONE ===

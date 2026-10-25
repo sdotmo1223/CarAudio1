@@ -1,0 +1,52 @@
+{
+  "captured": "2026-10-17T10:31:41.5394-04:00",
+  "feature": "Tune name bar: the status page's Memory 1-4 tabs are replaced by one editable tune name, persisted via GET/POST /api/tunename -> tunename.json",
+  "files": [
+    "ds18-bridge\\web\\index.html (membar HTML+CSS to label+input#tuneBarInput; tune-name JS section replacing MEM_COUNT/buildMemoryButtons/renderMemory; applyMemory gains promise return + quiet flag; renderStatus uses stTune + homeSubText + stores S.sourceName; volNote says 'this tune' instead of 'Memory N'; applyTune finish() saves the written file's base name and startWrites() jumps cell via cmd 12 first when needed; boot calls tuneNameLoad() and the /api/info handler seeds S.sourceName + re-paints)",
+    "ds18-bridge\\src\\BridgeServer.cs (route case /api/tunename + DoTuneName method, placed after DoTargets)",
+    "ds18-bridge\\tunename.json (seeded {\"name\":\"w6784b\"} - the .idsp actually loaded on the device, evidence tune-load-2026-10-16 memoryIndex 1)",
+    "DS18_DSP_protocol.md (new section 20)"
+  ],
+  "build": {
+    "compile": "exit 0 (build.ps1, kill bridge first)",
+    "selftest": "ALL TESTS PASSED, exit 0",
+    "bridge": "restarted: bin\\ds18-bridge.exe --serve --port 8585 (hidden); rta.exe :8586 confirmed still up"
+  },
+  "api": [
+    "GET initial -> name=\"\" ok=true (file ...\\ds18-bridge\\tunename.json)",
+    "POST {\"name\":\"w6784b\"} -> 200 ok=true bytes=17 echo w6784b",
+    "GET after seed -> name=\"w6784b\"",
+    "POST {\"name\":{\"x\":1}} (object, not string) -> 400 expected",
+    "POST {} (missing name) -> 400 expected",
+    "POST name of 70 chars -> 400 expected",
+    "rename round-trip: POST \"night cruise\" -> GET \"night cruise\", file {\"name\":\"night cruise\"}",
+    "restore: final GET + file -> name=\"w6784b\""
+  ],
+  "page": [
+    "fresh load: tuneBarInput value=\"w6784b\" (boot GET from bridge), bar label \"Tune\"",
+    "#memBtns gone (0 buttons), #stMem gone (row renamed to Tune/#stTune)",
+    "rename dispatch 'night cruise' -> input, stTune row and hero all show night cruise, hero source reads vendor name: \"night cruise / High-level\"",
+    "survives reload: fresh document still shows night cruise on input/stTune/hero (boot GET round-trip)",
+    "restored: input/stTune/hero = \"w6784b / High-level\"",
+    "body innerText has 0 matches of /Memory \\d/ (no numbered memory labels left)",
+    "console errors: [] (zero) on final check",
+    "node --check on the extracted inline script: exit 0 (run after every edit round)"
+  ],
+  "keptIntentional": [
+    "EQ header chip 'memory N' + system view sysMem: EQ reads/writes address a device cell by memIndex, so cell identity stays visible there",
+    "Tunes tab file-preview Memory hint + M1-M4 chips: they browse the imported .idsp file's own memories (protocol section 17), not the device",
+    "applyMemory kept (cmd 12 Flux_Select_Memory_Tsmi_Click path) - now called only from applyTune when the file's memory differs from the running one; failed jump aborts with 'device would not switch to memory N - tune not written'"
+  ],
+  "notes": [
+    "index.html is served from disk: HTML/JS changes need only a page reload; the C# change went kill -> build.ps1 -> selftest -> restart",
+    "bridge was restarted with the DSP OFF: /api/info carries restart defaults (memory 0); the tune name does not depend on device state",
+    "TUNE.edited guard: a boot GET that resolves after a user edit is ignored, so a stale load can never overwrite a fresh save",
+    "change handler collapses whitespace + trims and skips the POST when the value is unchanged (one write per real edit)"
+  ],
+  "revert": [
+    "index.html: membar block back to <span class=\"memlbl\">Memory</span> + <div class=\"mems\" id=\"memBtns\"></div>, restore .mems CSS rules and remove .tuneNameInput; restore status row to label Memory/#stMem (renderStatus writes d.mem, hero 'mem N / src'); restore volNote 'Memory N ...' strings; delete the tune-name JS section (TUNE/homeSubText/renderTuneName/tuneNameLoad/tuneNameSave/change listener), re-add MEM_COUNT/buildMemoryButtons/renderMemory; applyMemory back to sync void (drop quiet/promise, restore renderMemory() call); applyTune finish() without tuneNameFromFile and bare step(0) instead of startWrites(); boot: buildMemoryButtons() instead of tuneNameLoad(), drop the two /api/info handler lines",
+    "BridgeServer.cs: delete case \"/api/tunename\" and the whole DoTuneName method; then kill bridge -> build.ps1 -> selftest -> restart",
+    "delete ds18-bridge\\tunename.json to drop the stored name (page then shows the placeholder 'name this tune')",
+    "DS18_DSP_protocol.md: remove section 20"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "session": "Car window: DSP powered, first live verifications after the power-off block",
+  "date": "2026-10-18",
+  "context": {
+    "trigger": "owner plugged the laptop into the car (~15 min window); DSP enumerated as AI DSP USB",
+    "dsp_usb": "USB\\VID_1483&PID_1095\\05DAFF373036, status OK, 'AI DSP USB'",
+    "bridge_state_on_arrival": "NOT running (no listeners on 8585/8586) - died during the move; restarted from bin\\ds18-bridge.exe --serve --port 8585, pid 16436",
+    "rta_state_on_arrival": "NOT running; started from bin\\rta.exe",
+    "phone": "not on USB (adb empty)"
+  },
+  "live_device_state_after_connect": {
+    "ok": true, "mem": 1, "mainDb": -3, "groupDb": [-6, 0, -6, -2.8],
+    "source": 0, "sourceName": "High-level", "mute": false,
+    "rawHex": "A50000011E00BC80BC9C00000B71FC5E",
+    "note": "matches the recorded pre-power-off state exactly"
+  },
+  "volume_slider_seeding": {
+    "before_write": {
+      "sliders": "all 0.0 dB",
+      "volNote": "This tune's levels not read yet - sliders show full level until the first read.",
+      "why": "cmd 11 (channel levels/mute/delay) is the one block the DSP cannot be read back; the bridge keeps only a write-record, which is empty after a bridge restart. Honest note shown. NOT a bug."
+    },
+    "after_one_write": {
+      "sliders": ["CH 0=-4.6", "CH 1=-7.0", "CH 2=-7.0", "CH 3=-4.0", "CH 4=-3.0", "CH 5=-3.0", "CH 6=-14.0", "CH 7=-5.0"],
+      "volNote": "Levels from this tune, as the device reports them."
+    },
+    "cross_check_vs_file": {
+      "file": "ds18-bridge\\web\\w6784b.idsp (328176 bytes)",
+      "file_nonzero_output_gains": [-4.6, -7, -7, -4, -3, -3, -14, -5, -3, -3, -3, -3, -3, -3, -3, -3, -3, -4.6, -7, -7, -4, -3, -3, -14],
+      "verdict": "sliders == file's own output block, exact order and values (8/8). The 4x17=68 <output> elements for 4 memories.",
+      "stale_expectation": "the plan note said 'expect -5.8/-4.0/-10.2' - that guess was stale; the file contains these values"
+    }
+  },
+  "applyTune_write_test": {
+    "file": "w6784b.idsp - parsed, 4 memories (M0..M3)",
+    "target_condition": "File memory 1 -> device memory 1, output 0 (SAME memory, so no cmd-12 cell jump was needed; the jump branch remains unexercised and untested - jumping memories changes what plays, not done mid-car)",
+    "scope": "this output only (EQ) + tuneOut checked (cmd 11 output block for the whole memory)",
+    "result": "wrote 1 of 1; output block written - enable 0xff, 8 ch, not acked",
+    "auto_name": "tune bar + status card show 'w6784b' (tuneNameFromFile ran)",
+    "post_write_device_state": "identical to pre-write (mem 1, mainDb -3, groupDb [-6,0,-6,-2.8], same rawHex) - the writes disturbed nothing structural",
+    "eq_refresh": "EQ tab composite changed from flat to the tune's real EQ (range -7.5 ... +1.6 dB on CH 0)"
+  },
+  "in_car_overlay_verification": {
+    "rta": "device=Microphone (UMIK-1) (default), capturing, fs=48000, 61 bands, cal=True, level ~-32..-48 dBFS (real car audio)",
+    "eq_canvas": {
+      "measurement": "1981 white px, legend 'meas live'",
+      "target": "575 violet px, legend 'target Custom' (owner's finger-drag curve, kept by choice)",
+      "composite": "tune's real EQ after the write",
+      "legend": "CH 0 | 20 Hz - 20 kHz | composite | meas live | target Custom"
+    },
+    "note": "first run of the unified view against real in-car audio; the immediate first probe raced the first poll ('no measurement') and read correctly on re-probe ~1 s later",
+    "screenshot": "desktop EQ tab, green link, TUNE w6784b, MEMORY 2, ghosts + composite + measurement + violet target slice"
+  },
+  "still_open": [
+    "cell-jump branch of applyTune (needs a file memory != running memory; audible change, park-only)",
+    "overlay alignment judgement under real pink noise (car played music, not pink)",
+    "phone-side overlay screenshot (phone was not on USB in the car)",
+    "channel-volume slider WRITE from the phone (desktop path verified)"
+  ],
+  "revert": "none needed - no code changes this session; records only. Bridge/rta were restarted, not modified."
+}

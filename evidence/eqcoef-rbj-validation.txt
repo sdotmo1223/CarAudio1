@@ -1,0 +1,41 @@
+EQ coefficient validation - vendor EqGetCoff vs RBJ peaking cookbook
+bridge: http://localhost:8585   assumed fs: 48000 Hz
+
+fc=1000 Hz  gain=6 dB  Q=1.4
+    b2   decoded=0.90430850  rbj=0.90430850  |err|=3.199e-9
+    b1   decoded=-1.91954106  rbj=-1.91954112  |err|=5.667e-8
+    b0   decoded=1.03179628  rbj=1.03179626  |err|=1.544e-8
+    -a2  decoded=-0.93610471  rbj=-0.93610476  |err|=4.736e-8
+    -a1  decoded=1.91954106  rbj=1.91954112  |err|=5.667e-8
+
+fc=200 Hz  gain=-6 dB  Q=4
+    b2   decoded=0.99309343  rbj=0.99309345  |err|=1.820e-8
+    b1   decoded=-1.99011630  rbj=-1.99011635  |err|=5.331e-8
+    b0   decoded=0.99770504  rbj=0.99770510  |err|=5.689e-8
+    -a2  decoded=-0.99079853  rbj=-0.99079855  |err|=1.548e-8
+    -a1  decoded=1.99011630  rbj=1.99011635  |err|=5.331e-8
+
+fc=100 Hz  gain=10 dB  Q=0.5
+    b2   decoded=0.96958607  rbj=0.96958609  |err|=1.815e-8
+    b1   decoded=-1.98521584  rbj=-1.98521584  |err|=5.050e-9
+    b0   decoded=1.01579982  rbj=1.01579984  |err|=1.758e-8
+    -a2  decoded=-0.98538595  rbj=-0.98538593  |err|=2.388e-8
+    -a1  decoded=1.98521584  rbj=1.98521584  |err|=5.050e-9
+
+fc=5000 Hz  gain=-12 dB  Q=2.5
+    b2   decoded=0.75545770  rbj=0.75545768  |err|=2.246e-8
+    b1   decoded=-1.27658802  rbj=-1.27658803  |err|=3.923e-9
+    b0   decoded=0.85364634  rbj=0.85364631  |err|=2.319e-8
+    -a2  decoded=-0.60910398  rbj=-0.60910399  |err|=1.395e-8
+    -a1  decoded=1.27658802  rbj=1.27658803  |err|=3.923e-9
+
+fc=63 Hz  gain=3 dB  Q=7
+    b2   decoded=0.99880487  rbj=0.99880490  |err|=3.035e-8
+    b1   decoded=-1.99894124  rbj=-1.99894128  |err|=4.060e-8
+    b0   decoded=1.00020438  rbj=1.00020436  |err|=2.498e-8
+    -a2  decoded=-0.99900925  rbj=-0.99900926  |err|=5.372e-9
+    -a1  decoded=1.99894124  rbj=1.99894128  |err|=4.060e-8
+
+WORST ABS ERROR across all coefficients: 5.689e-8
+one Q24 LSB = 1/16777216 = 5.960e-8
+VERDICT: exact match - RBJ peaking @ 48 kHz, storage order [b2,b1,b0,-a2,-a1], unsigned Q24 big-endian.

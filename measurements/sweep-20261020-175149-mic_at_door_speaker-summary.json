@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T17:52:14",
+    "name":  "mic_at_door_speaker",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  20,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-175149-mic_at_door_speaker.wav",
+    "result":  "sweep-20261020-175149-mic_at_door_speaker.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

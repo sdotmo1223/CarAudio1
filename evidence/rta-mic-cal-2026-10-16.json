@@ -1,0 +1,21 @@
+{
+  "what": "rta.exe mic-toggle + calibration upload/verify feature - end-to-end verification",
+  "date": "2026-10-16",
+  "cal_upload": {
+    "file": "C:\\Users\\sdotm\\Downloads\\7170061 (1).txt (0 deg), copied to cal\\7170061-0deg.txt",
+    "post_response": {"ok": true, "name": "7170061 (1).txt", "serial": "7170061", "sensDb": -0.388, "points": 615, "fmin": 10.1, "fmax": 20016.8, "persisted": true, "corr": {"20": 1.384, "100": -0.048, "1000": -0.053, "10000": 0.448}},
+    "serial_matches": "UMIK-1 SERNO 7170061 (mic on this machine)"
+  },
+  "reject_path": {"file": "garbage.txt", "http": 422, "kept_previous_cal": true},
+  "persistence": {"file": "bin\\rta-cal.txt", "reload": "daemon restart auto-reloads, cal block present in /rta.json after restart"},
+  "devices_endpoint": {"0": "Microphone (UMIK-1) 2ch inUse", "1": "Stereo Mix (Realtek) 2ch", "2": "Microphone Array (Realtek) 2ch"},
+  "runtime_switch": {"GET /device?n=2": "capturing on [2] within ~1s", "GET /device?n=0": "capturing on UMIK [0] again", "through_ui_dropdown": true},
+  "ui_verification": {
+    "tab": "RTA",
+    "mic_dropdown": "3 devices listed, UMIK selected",
+    "cal_display": "loaded (green) - SERNO 7170061 - 615 pts - 10.1-20016.8 Hz - 7170061-0deg.txt",
+    "upload_via_file_input": "toast: cal verified: SERNO 7170061 - 615 pts - saved",
+    "console_errors": "3 x ERR_NETWORK_CHANGED one-time blip on rta.json at page load (network stack, not code); zero errors from feature code, poll recovered and stayed clean"
+  },
+  "band_application": "correction added to all 61 band dB values in Analyze (REW convention), log-f interpolation, edge-clamped; peak-hold follows corrected values"
+}

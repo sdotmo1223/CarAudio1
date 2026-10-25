@@ -1,0 +1,72 @@
+{
+  "what": "sweep mode (flatten the playing memory in place, then put it back) — first live rig verification",
+  "when": "2026-10-19 18:2x -04:00",
+  "where": "car, amplifier attached, DSP powered, bridge http://127.0.0.1:8585, rta 8586",
+  "page": "web/index.html, the new flatten-in-place module (SWEEP = {on,busy,snap,err,pct}); the old memory-select module was still resident in one stale browser tab and produced the accidental control below",
+  "device_before": { "mem": 1, "mainDb": -3.0, "mute": false, "groups": [-6.0, 0.0, -6.0, -2.8], "source": 0 },
+  "device_after":  { "mem": 1, "mainDb": -3.0, "mute": false, "groups": [-6.0, 0.0, -6.0, -2.8], "source": 0 },
+
+  "accidental_control_old_page": {
+    "note": "A stale tab running the PRE-EDIT code (memory-select design) was clicked by mistake. It is a second live demonstration of section 37's finding, and it exposed a real fault that the new code has fixed.",
+    "steps": [
+      { "action": "POST /api/master mute=true (to make the test silent)", "device_readback": { "mem": 1, "mainDb": -3, "mute": true } },
+      { "action": "old page: press Sweep mode -> read memory 4, then cmd 12 mem=3 mainDb=-8", "device_readback": { "mem": 1, "mainDb": -8, "mute": false } },
+      { "action": "old page: press Sweep mode again -> cmd 12 mem=1 mainDb=-3 (its own 'home')", "device_readback": { "mem": 1, "mainDb": -3, "mute": false } }
+    ],
+    "findings": [
+      "The LEVEL from the cmd 12 frame lands (-3 -> -8 -> -3). The MEMORY never moves: /api/status reports mem=1 throughout, while the old page's own check read /api/info (the bridge mirror) and reported 'on - memory 4 flat'.",
+      "The old sweepSwitch carried the page's cached mute flag, so it UNMUTED the car as a side effect (mute true -> false) even though nothing in the design intended a mute change. The new sweepSwitch reads /api/status first and echoes the device's own mute/groups/source/mem, so only mainDb changes."
+    ]
+  },
+
+  "verified_cycle": {
+    "preconditions": "device muted for the whole test (mute=true confirmed by /api/status); nothing audible",
+    "state_texts_observed_in_order": [
+      "saving the tune 1/17 ... 17/17",
+      "flattening 1/17 ... 17/17",
+      "checking the flatten",
+      "setting level 80% (-8.0 dB)",
+      "on - 17 paths flat, 80% (-8.0 dB)",
+      "putting the tune back 1/17 ... 17/17",
+      "checking the tune",
+      "off"
+    ],
+    "tune_gate_during_sweep_mode": "flat - 9 paths at 0 dB (the neutral verdict; baseRead reads the live memory)",
+    "snapshot": "localStorage ds18.sweepSnap = 23932 bytes (17 cells x 31 bands, fc/gain/q, plus byPass)",
+    "independent_readback_while_flattened": {
+      "source": "fingerprint.ps1 / /api/eqread, not the page",
+      "paths_0_to_7_worst_abs_gain_db": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "byPass": "false on every path",
+      "device": { "mem": 1, "mainDb": -8, "mute": true }
+    },
+    "restore_comparison": {
+      "tool": "compare-fingerprints.ps1",
+      "before": "evidence/sweep-before-2026-10-19b.json",
+      "after": "evidence/sweep-after-2026-10-19.json",
+      "bands_compared": 527,
+      "paths_compared": 17,
+      "crossovers": "every scalar (lowFc, highFc, lowSlope, highSlope, lowFilterType, highFilterType) compared per path",
+      "verdict": "PASS - every band (fc/gain/q), every byPass bit, every crossover scalar and the master state are identical"
+    },
+    "eq_tune_fingerprint_worst_abs_gain_db": {
+      "path0": 15.0, "path1": 15.0, "path2": 15.0, "path3": 12.6,
+      "path4": 12.4, "path5": 9.4, "path6": 12.0, "path7": 5.4,
+      "path8_to_16": 0.0
+    }
+  },
+
+  "conclusions": [
+    "Flatten-in-place works: 17 cmd 14 writes, verified by 17 readbacks, with an independent device read confirming 0.00 dB on every path that carried EQ.",
+    "The restore works: 17 writes from the snapshot, verified by 17 readbacks, and independently confirmed byte-identical (527 bands + all crossover scalars + byPass + master state).",
+    "The memory never moved, as section 37 says - and it did not need to: the flatten landed in the memory that was already playing.",
+    "sweep mode's level write no longer carries page-cached mute/groups/source; it reads the device first. Confirmed: mute stayed true across the whole cycle.",
+    "Not covered by this test: audio (the cycle was muted throughout), the flush of a real sweep through a driver, the tune gate's 'tuned' verdict during a real capture, and the cmd 11 mute vector (no run was started)."
+  ],
+
+  "files": [
+    "evidence/sweep-before-2026-10-19b.json",
+    "evidence/sweep-after-2026-10-19.json",
+    "fingerprint.ps1",
+    "compare-fingerprints.ps1"
+  ]
+}

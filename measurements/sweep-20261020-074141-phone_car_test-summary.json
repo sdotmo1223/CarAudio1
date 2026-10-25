@@ -1,0 +1,14 @@
+﻿{
+    "at":  "2026-10-20T07:42:31",
+    "name":  "phone_car_test",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  40,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-074141-phone_car_test.wav",
+    "result":  "sweep-20261020-074141-phone_car_test.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ]
+}

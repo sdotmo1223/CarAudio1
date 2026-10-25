@@ -1,0 +1,444 @@
+﻿{
+    "at":  "2026-10-19T21:30:28",
+    "source":  "evidence\\rehearsal\\rehearsal\\sweep-20261019-211643-rehearsal.json burst 3",
+    "target":  "flat",
+    "model":  "RBJ peaking Q=1 fs=48000, ridge 0.10",
+    "boostCap":  6,
+    "cutCap":  12,
+    "floorBelow":  20,
+    "bassDb":  -7,
+    "bands":  [
+                  {
+                      "fc":  20,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  25,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  31,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  40,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  50,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  63,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  80,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  100,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  125,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  160,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  200,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  250,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  315,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  400,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  500,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  630,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  800,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  1000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  1250,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  1600,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  2000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  2500,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  3150,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  4000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  5000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  6300,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  8000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  10000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  12500,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  16000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  20000,
+                      "gain":  0
+                  }
+              ],
+    "predicted":  [
+                      {
+                          "f":  20,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  22.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  25.2,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  28.3,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  31.7,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  35.6,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  40,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  44.9,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  50.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  56.6,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  63.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  71.3,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  80,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  89.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  100.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  113.1,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  127,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  142.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  160,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  179.6,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  201.6,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  226.3,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  254,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  285.1,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  320,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  359.2,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  403.2,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  452.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  508,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  570.2,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  640,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  718.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  806.3,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  905.1,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1015.9,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1140.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1280,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1436.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1612.7,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1810.2,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2031.9,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2280.7,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2560,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2873.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  3225.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  3620.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  4063.7,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  4561.4,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  5120,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  5747,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  6450.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  7240.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  8127.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  9122.8,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  10240,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  11494,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  12901.6,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  14481.5,
+                          "db":  0,
+                          "usable":  true
+                      },
+                      {
+                          "f":  16255,
+                          "db":  0.01,
+                          "usable":  true
+                      },
+                      {
+                          "f":  18245.6,
+                          "db":  0.09,
+                          "usable":  true
+                      },
+                      {
+                          "f":  20480,
+                          "db":  0.12,
+                          "usable":  true
+                      }
+                  ],
+    "maxResidualDb":  0.12
+}

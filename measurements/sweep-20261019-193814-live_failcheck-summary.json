@@ -1,0 +1,14 @@
+﻿{
+    "at":  "2026-10-19T19:38:36",
+    "name":  "live failcheck",
+    "mic":  "Microphone Array (Realtek(R) Audio)",
+    "loopback":  "Stereo Mix (Realtek(R) Audio)",
+    "seconds":  13,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261019-193814-live_failcheck.wav",
+    "result":  "sweep-20261019-193814-live_failcheck.json",
+    "bursts":  1,
+    "delaysMs":  [
+                     10949.9792
+                 ]
+}

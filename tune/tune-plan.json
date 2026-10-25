@@ -1,0 +1,652 @@
+{
+  "source": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\run-20261020-1925",
+  "target": [
+    [
+      20,
+      6.0
+    ],
+    [
+      35,
+      6.5
+    ],
+    [
+      55,
+      6.0
+    ],
+    [
+      80,
+      4.5
+    ],
+    [
+      120,
+      3.0
+    ],
+    [
+      180,
+      1.5
+    ],
+    [
+      300,
+      0.0
+    ],
+    [
+      500,
+      0.0
+    ],
+    [
+      800,
+      -0.3
+    ],
+    [
+      1000,
+      -0.5
+    ],
+    [
+      2000,
+      -1.5
+    ],
+    [
+      3500,
+      -2.5
+    ],
+    [
+      6000,
+      -3.5
+    ],
+    [
+      10000,
+      -4.5
+    ],
+    [
+      20000,
+      -5.5
+    ]
+  ],
+  "paths": {
+    "7": {
+      "channel": "midbass 1",
+      "role": "rear 6.5\" pair",
+      "bands": [
+        {
+          "fc": 135,
+          "gain": -12.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 1.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1613,
+          "gain": 1.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": -4.5,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1356,
+          "gain": 1.2,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 806,
+          "gain": -9.6,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 240,
+          "gain": -3.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1076,
+          "gain": 0.8,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 427,
+          "gain": -2.4,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 80,
+          "gain": 0.4,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -17.1,
+      "currentGainDb": -5,
+      "delayMs": 4.4,
+      "bandRangeHz": [
+        80,
+        7000
+      ],
+      "rmsBeforeDb": 9.22,
+      "rmsAfterDb": 5.4,
+      "predictedRelDb": {
+        "100": 0.2,
+        "150": 0.3,
+        "250": -1.9,
+        "500": -3.9,
+        "1000": -6.6,
+        "2000": -8.1,
+        "4000": -12.6
+      },
+      "newGainDb": -22.1
+    },
+    "4": {
+      "channel": "midrange 1",
+      "role": "front 3.5\" pair",
+      "bands": [
+        {
+          "fc": 538,
+          "gain": -11.9,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 214,
+          "gain": -8.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 2.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 113,
+          "gain": 2.1,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1613,
+          "gain": -7.7,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 180,
+          "gain": -5.1,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 135,
+          "gain": 2.1,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 718,
+          "gain": -2.5,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1016,
+          "gain": 2.1,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": -1.6,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 854,
+          "gain": -4.2,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -5.3,
+      "currentGainDb": -3,
+      "delayMs": 4.6,
+      "bandRangeHz": [
+        110,
+        9000
+      ],
+      "rmsBeforeDb": 8.8,
+      "rmsAfterDb": 6.3,
+      "predictedRelDb": {
+        "150": -0.0,
+        "250": 0.7,
+        "500": -0.3,
+        "1000": -1.7,
+        "2000": -1.8,
+        "4000": -13.2,
+        "8000": -17.7
+      },
+      "newGainDb": -8.3
+    },
+    "5": {
+      "channel": "midrange 2",
+      "role": "rear 3.5\" pair",
+      "bands": [
+        {
+          "fc": 427,
+          "gain": -9.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -12.0,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1280,
+          "gain": 2.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 604,
+          "gain": -8.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 214,
+          "gain": -4.4,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1076,
+          "gain": 2.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 320,
+          "gain": 0.5,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": 0.0,
+      "currentGainDb": -3,
+      "delayMs": 5,
+      "bandRangeHz": [
+        110,
+        9000
+      ],
+      "rmsBeforeDb": 7.83,
+      "rmsAfterDb": 6.15,
+      "predictedRelDb": {
+        "150": 1.9,
+        "250": 2.4,
+        "500": 0.5,
+        "1000": -1.5,
+        "2000": 1.2,
+        "4000": -15.4,
+        "8000": -15.8
+      },
+      "newGainDb": -3.0
+    },
+    "6": {
+      "channel": "midrange 3",
+      "role": "front 8\" pair",
+      "bands": [
+        {
+          "fc": 101,
+          "gain": -9.3,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1918,
+          "gain": 1.8,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 403,
+          "gain": -6.0,
+          "q": 2.8,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1613,
+          "gain": 1.8,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1280,
+          "gain": -9.4,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 959,
+          "gain": 0.8,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 170,
+          "gain": 1.2,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 320,
+          "gain": -5.8,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 254,
+          "gain": 1.6,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 135,
+          "gain": -4.5,
+          "q": 4.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 479,
+          "gain": -0.7,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -16.0,
+      "currentGainDb": -14,
+      "delayMs": 3.8,
+      "bandRangeHz": [
+        70,
+        5000
+      ],
+      "rmsBeforeDb": 7.49,
+      "rmsAfterDb": 5.31,
+      "predictedRelDb": {
+        "70": 2.1,
+        "100": 0.7,
+        "150": -0.4,
+        "250": -3.6,
+        "500": -3.4,
+        "1000": -2.5,
+        "2000": -4.7,
+        "4000": -18.2
+      },
+      "newGainDb": -30.0
+    },
+    "0": {
+      "channel": "tweeter 1",
+      "role": "front-left tweeter",
+      "bands": [
+        {
+          "fc": 11494,
+          "gain": 1.9,
+          "q": 1.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1709,
+          "gain": -5.2,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 4833,
+          "gain": -4.1,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 9665,
+          "gain": 2.3,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2874,
+          "gain": 1.4,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -2.2,
+      "currentGainDb": -4.6,
+      "delayMs": 5.4,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 2.98,
+      "rmsAfterDb": 0.89,
+      "predictedRelDb": {
+        "2000": 2.4,
+        "4000": 0.6,
+        "8000": -1.9
+      },
+      "newGainDb": -6.8
+    },
+    "1": {
+      "channel": "tweeter 2",
+      "role": "front-right tweeter",
+      "bands": [
+        {
+          "fc": 3044,
+          "gain": 2.3,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1613,
+          "gain": -5.3,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 12177,
+          "gain": -1.9,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 2416,
+          "gain": 2.3,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 4833,
+          "gain": -1.3,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -1.1,
+      "currentGainDb": -7,
+      "delayMs": 3.8,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 2.64,
+      "rmsAfterDb": 1.24,
+      "predictedRelDb": {
+        "2000": 3.0,
+        "4000": 0.9,
+        "8000": -1.4
+      },
+      "newGainDb": -8.1
+    },
+    "2": {
+      "channel": "tweeter 3",
+      "role": "rear-left tweeter",
+      "bands": [
+        {
+          "fc": 1522,
+          "gain": -5.8,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 9123,
+          "gain": 3.0,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 3044,
+          "gain": 2.3,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 1810,
+          "gain": -4.3,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -2.0,
+      "currentGainDb": -7,
+      "delayMs": 6,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 3.9,
+      "rmsAfterDb": 1.59,
+      "predictedRelDb": {
+        "2000": 4.7,
+        "4000": 0.8,
+        "8000": -2.5
+      },
+      "newGainDb": -9.0
+    },
+    "3": {
+      "channel": "tweeter 4",
+      "role": "rear-right tweeter",
+      "bands": [
+        {
+          "fc": 1613,
+          "gain": -6.1,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 11494,
+          "gain": 2.3,
+          "q": 0.7,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 9665,
+          "gain": 1.9,
+          "q": 1.4,
+          "type": 0,
+          "enable": true
+        },
+        {
+          "fc": 5424,
+          "gain": -1.9,
+          "q": 2.0,
+          "type": 0,
+          "enable": true
+        }
+      ],
+      "gainDeltaDb": -4.1,
+      "currentGainDb": -4,
+      "delayMs": 4.1,
+      "bandRangeHz": [
+        1500,
+        14000
+      ],
+      "rmsBeforeDb": 3.99,
+      "rmsAfterDb": 1.88,
+      "predictedRelDb": {
+        "2000": 1.3,
+        "4000": 0.2,
+        "8000": -1.6
+      },
+      "newGainDb": -8.1
+    }
+  },
+  "skipped": []
+}

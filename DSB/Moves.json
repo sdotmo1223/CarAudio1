@@ -1,0 +1,142 @@
+{
+  "at": "2026-10-25T14:58:54+00:00",
+  "root": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge",
+  "moves": [
+    {
+      "from": "TUNE-PLAYBOOK.md",
+      "to": "TUNE-PLAYBOOK.md",
+      "status": "moved"
+    },
+    {
+      "from": "TUNING-BRIEF.md",
+      "to": "TUNING-BRIEF.md",
+      "status": "moved"
+    },
+    {
+      "from": "STATE.md",
+      "to": "STATE.md",
+      "status": "moved"
+    },
+    {
+      "from": "EQUIPMENT.md",
+      "to": "EQUIPMENT.md",
+      "status": "moved"
+    },
+    {
+      "from": "DECISIONS.md",
+      "to": "DECISIONS.md",
+      "status": "moved"
+    },
+    {
+      "from": "OVERNIGHT.md",
+      "to": "OVERNIGHT.md",
+      "status": "moved"
+    },
+    {
+      "from": "APP-BRIEF.md",
+      "to": "APP-BRIEF.md",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\refs",
+      "to": "refs",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\ATLAS.md",
+      "to": "ATLAS.md",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\PREDICTION.md",
+      "to": "PREDICTION.md",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\SELF-REVIEW.md",
+      "to": "SELF-REVIEW.md",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\B-TUNE-REVIEW.md",
+      "to": "B-TUNE-REVIEW.md",
+      "status": "moved"
+    },
+    {
+      "from": "tune\\tune-plan-report.md",
+      "to": "tune-plan-report.md",
+      "status": "moved"
+    },
+    {
+      "from": "app\\APP-NOTES.md",
+      "to": "APP-NOTES.md",
+      "status": "moved"
+    }
+  ],
+  "rewrites": [
+    {
+      "file": "lint-refs.ps1",
+      "replacements": 2
+    },
+    {
+      "file": "app\\README.md",
+      "replacements": 1
+    },
+    {
+      "file": "app\\src\\SurfaceMeasure.cs",
+      "replacements": 1
+    },
+    {
+      "file": "DSB\\APP-BRIEF.md",
+      "replacements": 2
+    },
+    {
+      "file": "DSB\\APP-NOTES.md",
+      "replacements": 1
+    },
+    {
+      "file": "DSB\\SELF-REVIEW.md",
+      "replacements": 2
+    },
+    {
+      "file": "DSB\\STATE.md",
+      "replacements": 5
+    },
+    {
+      "file": "DSB\\TUNE-PLAYBOOK.md",
+      "replacements": 11
+    },
+    {
+      "file": "DSB\\TUNING-BRIEF.md",
+      "replacements": 5
+    },
+    {
+      "file": "DSB\\refs\\README.md",
+      "replacements": 1
+    },
+    {
+      "file": "tune\\tune-atlas.py",
+      "replacements": 1
+    },
+    {
+      "file": "var\\page-check.js",
+      "replacements": 2
+    },
+    {
+      "file": "var\\_dsb-move.py",
+      "replacements": 13
+    },
+    {
+      "file": "var\\_page.js",
+      "replacements": 2
+    },
+    {
+      "file": "var\\_xover-probe.py",
+      "replacements": 1
+    },
+    {
+      "file": "web\\index.html",
+      "replacements": 2
+    }
+  ]
+}

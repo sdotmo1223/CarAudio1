@@ -1,0 +1,21 @@
+﻿{
+    "at":  "2026-10-19T21:33:25",
+    "name":  "rehearsal",
+    "mic":  "(from file)",
+    "loopback":  "(from file)",
+    "seconds":  14,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "rehearsal-cycle.wav",
+    "result":  "sweep-20261019-213241-rehearsal.json",
+    "bursts":  8,
+    "delaysMs":  [
+                     3.2083,
+                     3.7917,
+                     4.1042,
+                     4.6042,
+                     5,
+                     5.3958,
+                     3.8958,
+                     4.3958
+                 ]
+}

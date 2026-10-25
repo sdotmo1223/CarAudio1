@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-16",
+  "session": "in-car live walk test (user driving, audio-only changes, cmd 11 per-output enable walk)",
+  "method": "mute-all via cmd 11 complete-block write (echoed baseline gains 0.0 dB, delays 0, revert 0, group block auto-attached), then one output enabled at a time; every write verified by cmd 15 dspcfg readback (enable mask) since firmware does not ACK cmd 11",
+  "speaker_map": {
+    "path0_ch1": "driver's tweeter (front left 1-inch)",
+    "path1_ch2": "passenger tweeter (front right 1-inch)",
+    "path2_ch3": "rear driver's tweeter",
+    "path3_ch4": "rear passenger tweeter",
+    "path4_ch5": "front 3.5-inch pair",
+    "path5_ch6": "rear 3.5-inch pair",
+    "path6_ch7": "front 8-inch pair",
+    "path7_ch8": "rear 6.5-inch pair",
+    "note": "subs NOT on any DSP output - separate amplifier fed upstream (user confirmed earlier today)"
+  },
+  "crossover_bands_with_map": {
+    "p0_p1": "2500-20000 Hz (front tweeters) - p0 top slope 18 dB/oct vs p1 24 dB/oct DESYNCED",
+    "p2_p3": "2500-20000 Hz top sl1 (rear tweeters) - consistent pair",
+    "p4_p5": "250-2500 Hz (3.5 pairs) - consistent pair",
+    "p6": "110-2500 Hz (front 8s midbass)",
+    "p7": "140-1000 Hz (rear 6.5s) - 1000 Hz top edge notably low for a 6.5, may be deliberate rear-fill darkening"
+  },
+  "slot_semantics_resolved": "empirically confirmed: slot0 (low*/wire lowFreq) = band LOWER edge (HPF role), slot1 = upper edge (LPF role) - driver's tweeter audible with 2500 Hz bottom edge, 8s with 110 Hz bottom edge, etc. Vendor UI L/H tags = low/high band edge, not filter direction",
+  "findings_with_map": {
+    "p0_stale_eq_confirmed": "driver's tweeter carries 8 EQ bands all below its 2500 Hz HPF (20/-5, 25/-0.5, 31/+4.6, 40/-5.9, 50/+12, 80/-0.8, 1000/+2.8, 1250/+10.1) - inaudible leftovers from a previous channel role. Now fully explained: channel was reassigned to the tweeter without cleaning EQ",
+    "p0_p1_pair_desync": "front tweeter pair disagrees: top slope LR18 vs LR24 and completely different EQ (3.56 dB avg apart). Rear tweeter pair (p2/p3) and 3.5 pair (p4/p5) are consistent, so front pair desync is the anomaly",
+    "p6_p7_not_a_pair": "audit's p6/p7 mismatch is BY DESIGN - they drive different speakers (front 8s vs rear 6.5s); no action needed"
+  },
+  "incident_log": "first walk block echoed -3.0 dB gains (misread of mem1 pre-state from hex dump eyeballing); detected by baseline comparison on readback within seconds, corrected in next block; final restored state verified byte-identical: enable 0x00FF, gains 0.0x8, delays 0, master -3, groups [-6,0,-6,-2.8], mute false, mem 1",
+  "restore_verified": "enable=0x00FF gains=[0x0000 x8] /api/info: master=-3 groups=[-6,0,-6,-2.8] mute=False mem=1",
+  "actions_pending_parked": [
+    "p0: flatten the 8 dead below-2500 Hz bands (or mirror p1's tweeter EQ) - user choice",
+    "p0/p1: align front tweeter top slopes (18 vs 24 dB/oct) unless asymmetry is deliberate",
+    "optional: confirm p7 1000 Hz top edge is intentional for rear 6.5s"
+  ],
+  "console_errors": 0
+}

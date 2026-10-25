@@ -1,0 +1,15 @@
+﻿{
+    "at":  "2026-10-20T17:41:46",
+    "name":  "tune_test_midbass",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  null,
+    "seconds":  50,
+    "sweep":  "sweep-110-12000-10s.wav",
+    "recording":  "sweep-20261020-174050-tune_test_midbass.wav",
+    "result":  "sweep-20261020-174050-tune_test_midbass.json",
+    "bursts":  0,
+    "delaysMs":  [
+
+                 ],
+    "measured":  false
+}

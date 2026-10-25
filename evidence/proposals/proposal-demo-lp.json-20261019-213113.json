@@ -1,0 +1,444 @@
+﻿{
+    "at":  "2026-10-19T21:31:13",
+    "source":  "evidence\\proposals\\demo-lp.json demo-lp.json",
+    "target":  "flat",
+    "model":  "RBJ peaking Q=1 fs=48000, ridge 0.10",
+    "boostCap":  6,
+    "cutCap":  12,
+    "floorBelow":  20,
+    "bassDb":  -6.0366666666666671,
+    "bands":  [
+                  {
+                      "fc":  20,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  25,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  31,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  40,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  50,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  63,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  80,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  100,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  125,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  160,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  200,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  250,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  315,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  400,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  500,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  630,
+                      "gain":  -0.3
+                  },
+                  {
+                      "fc":  800,
+                      "gain":  -0.3
+                  },
+                  {
+                      "fc":  1000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  1250,
+                      "gain":  0.5
+                  },
+                  {
+                      "fc":  1600,
+                      "gain":  0.9
+                  },
+                  {
+                      "fc":  2000,
+                      "gain":  2
+                  },
+                  {
+                      "fc":  2500,
+                      "gain":  4.9
+                  },
+                  {
+                      "fc":  3150,
+                      "gain":  6
+                  },
+                  {
+                      "fc":  4000,
+                      "gain":  4.9
+                  },
+                  {
+                      "fc":  5000,
+                      "gain":  3
+                  },
+                  {
+                      "fc":  6300,
+                      "gain":  1.6
+                  },
+                  {
+                      "fc":  8000,
+                      "gain":  0.9
+                  },
+                  {
+                      "fc":  10000,
+                      "gain":  0.5
+                  },
+                  {
+                      "fc":  12500,
+                      "gain":  0.2
+                  },
+                  {
+                      "fc":  16000,
+                      "gain":  0
+                  },
+                  {
+                      "fc":  20000,
+                      "gain":  0
+                  }
+              ],
+    "predicted":  [
+                      {
+                          "f":  20,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  22.4,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  25.2,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  28.3,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  31.7,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  35.6,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  40,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  44.9,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  50.4,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  56.6,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  63.5,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  71.3,
+                          "db":  0.03,
+                          "usable":  true
+                      },
+                      {
+                          "f":  80,
+                          "db":  0.03,
+                          "usable":  true
+                      },
+                      {
+                          "f":  89.8,
+                          "db":  0.03,
+                          "usable":  true
+                      },
+                      {
+                          "f":  100.8,
+                          "db":  0.03,
+                          "usable":  true
+                      },
+                      {
+                          "f":  113.1,
+                          "db":  0.04,
+                          "usable":  true
+                      },
+                      {
+                          "f":  127,
+                          "db":  0.05,
+                          "usable":  true
+                      },
+                      {
+                          "f":  142.5,
+                          "db":  0.05,
+                          "usable":  true
+                      },
+                      {
+                          "f":  160,
+                          "db":  0.06,
+                          "usable":  true
+                      },
+                      {
+                          "f":  179.6,
+                          "db":  0.07,
+                          "usable":  true
+                      },
+                      {
+                          "f":  201.6,
+                          "db":  0.08,
+                          "usable":  true
+                      },
+                      {
+                          "f":  226.3,
+                          "db":  0.09,
+                          "usable":  true
+                      },
+                      {
+                          "f":  254,
+                          "db":  0.11,
+                          "usable":  true
+                      },
+                      {
+                          "f":  285.1,
+                          "db":  0.12,
+                          "usable":  true
+                      },
+                      {
+                          "f":  320,
+                          "db":  0.13,
+                          "usable":  true
+                      },
+                      {
+                          "f":  359.2,
+                          "db":  0.15,
+                          "usable":  true
+                      },
+                      {
+                          "f":  403.2,
+                          "db":  0.15,
+                          "usable":  true
+                      },
+                      {
+                          "f":  452.5,
+                          "db":  0.15,
+                          "usable":  true
+                      },
+                      {
+                          "f":  508,
+                          "db":  0.13,
+                          "usable":  true
+                      },
+                      {
+                          "f":  570.2,
+                          "db":  0.11,
+                          "usable":  true
+                      },
+                      {
+                          "f":  640,
+                          "db":  0.09,
+                          "usable":  true
+                      },
+                      {
+                          "f":  718.4,
+                          "db":  0.08,
+                          "usable":  true
+                      },
+                      {
+                          "f":  806.3,
+                          "db":  0.07,
+                          "usable":  true
+                      },
+                      {
+                          "f":  905.1,
+                          "db":  0.06,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1015.9,
+                          "db":  0.02,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1140.4,
+                          "db":  -0.05,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1280,
+                          "db":  -0.14,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1436.8,
+                          "db":  -0.2,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1612.7,
+                          "db":  -0.21,
+                          "usable":  true
+                      },
+                      {
+                          "f":  1810.2,
+                          "db":  -0.15,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2031.9,
+                          "db":  -0.08,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2280.7,
+                          "db":  -0.15,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2560,
+                          "db":  -0.56,
+                          "usable":  true
+                      },
+                      {
+                          "f":  2873.5,
+                          "db":  -1.51,
+                          "usable":  true
+                      },
+                      {
+                          "f":  3225.4,
+                          "db":  -3.14,
+                          "usable":  false
+                      },
+                      {
+                          "f":  3620.4,
+                          "db":  -5.45,
+                          "usable":  false
+                      },
+                      {
+                          "f":  4063.7,
+                          "db":  -8.4,
+                          "usable":  false
+                      },
+                      {
+                          "f":  4561.4,
+                          "db":  -11.86,
+                          "usable":  false
+                      },
+                      {
+                          "f":  5120,
+                          "db":  -15.67,
+                          "usable":  false
+                      },
+                      {
+                          "f":  5747,
+                          "db":  -19.66,
+                          "usable":  false
+                      },
+                      {
+                          "f":  6450.8,
+                          "db":  -23.69,
+                          "usable":  false
+                      },
+                      {
+                          "f":  7240.8,
+                          "db":  -27.68,
+                          "usable":  false
+                      },
+                      {
+                          "f":  8127.5,
+                          "db":  -31.6,
+                          "usable":  false
+                      },
+                      {
+                          "f":  9122.8,
+                          "db":  -35.44,
+                          "usable":  false
+                      },
+                      {
+                          "f":  10240,
+                          "db":  -39.25,
+                          "usable":  false
+                      },
+                      {
+                          "f":  11494,
+                          "db":  -43.03,
+                          "usable":  false
+                      },
+                      {
+                          "f":  12901.6,
+                          "db":  -46.67,
+                          "usable":  false
+                      },
+                      {
+                          "f":  14481.5,
+                          "db":  -49.42,
+                          "usable":  false
+                      },
+                      {
+                          "f":  16255,
+                          "db":  -50.03,
+                          "usable":  false
+                      },
+                      {
+                          "f":  18245.6,
+                          "db":  -46.23,
+                          "usable":  false
+                      },
+                      {
+                          "f":  20480,
+                          "db":  -43.79,
+                          "usable":  false
+                      }
+                  ],
+    "maxResidualDb":  0.56
+}

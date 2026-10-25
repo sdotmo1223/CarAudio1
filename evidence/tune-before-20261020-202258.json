@@ -1,0 +1,3351 @@
+﻿{
+    "at":  "2026-10-20T20:22:58",
+    "tag":  "before-tune",
+    "mem":  1,
+    "mute":  [
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false,
+                 false
+             ],
+    "gainDb":  [
+                   -4.6,
+                   -7,
+                   -7,
+                   -4,
+                   -3,
+                   -3,
+                   -14,
+                   -5,
+                   0,
+                   0,
+                   0,
+                   0,
+                   0,
+                   0,
+                   0,
+                   0
+               ],
+    "delayMs":  [
+                    5.4,
+                    3.8,
+                    6,
+                    4.1,
+                    4.6,
+                    5,
+                    3.8,
+                    4.4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+    "revert":  [
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false,
+                   false
+               ],
+    "paths":  [
+                  {
+                      "path":  0,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  2625,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2804,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2995,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3200,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3418,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3900,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4166,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4450,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4754,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5078,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5424,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5794,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6189,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6611,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7062,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7544,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8058,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8608,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9195,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9822,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  10492,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11208,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11972,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  12789,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  13661,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  14593,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  15588,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  16651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  17787,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  19000,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  1,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  2625,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2804,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2995,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3200,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3418,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3900,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4166,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4450,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4754,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5078,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5424,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5794,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6189,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6611,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7062,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7544,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8058,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8608,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9195,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9822,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  10492,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11208,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11972,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  12789,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  13661,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  14593,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  15588,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  16651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  17787,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  19000,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  2,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  2625,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2804,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2995,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3200,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3418,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3900,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4166,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4450,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4754,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5078,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5424,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5794,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6189,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6611,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7062,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7544,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8058,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8608,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9195,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9822,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  10492,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11208,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11972,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  12789,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  13661,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  14593,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  15588,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  16651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  17787,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  19000,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  3,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  2625,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2804,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2995,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3200,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3418,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  3900,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4166,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4450,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  4754,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5078,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5424,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  5794,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6189,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  6611,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7062,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  7544,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8058,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  8608,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9195,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  9822,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  10492,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11208,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  11972,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  12789,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  13661,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  14593,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  15588,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  16651,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  17787,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  19000,
+                                        "gain":  0,
+                                        "q":  15.2,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  4,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  263,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  282,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  304,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  327,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  352,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  379,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  408,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  439,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  472,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  508,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  547,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  589,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  633,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  682,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  734,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  790,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  850,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  914,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  984,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1059,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1140,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1227,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1320,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1421,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1529,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1645,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1771,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1906,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2051,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2207,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2375,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  5,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  263,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  282,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  304,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  327,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  352,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  379,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  408,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  439,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  472,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  508,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  547,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  589,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  633,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  682,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  734,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  790,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  850,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  914,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  984,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1059,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1140,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1227,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1320,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1421,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1529,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1645,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1771,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1906,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2051,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2207,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2375,
+                                        "gain":  0,
+                                        "q":  13.6,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  6,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  116,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  128,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  141,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  156,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  173,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  191,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  211,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  234,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  259,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  286,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  316,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  350,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  387,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  428,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  474,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  524,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  579,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  641,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  709,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  784,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  867,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  959,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1060,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1173,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1297,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1435,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1587,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1755,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  1941,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2147,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  2375,
+                                        "gain":  0,
+                                        "q":  9.9,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  },
+                  {
+                      "path":  7,
+                      "byPass":  false,
+                      "bands":  [
+                                    {
+                                        "fc":  147,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  156,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  166,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  177,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  189,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  201,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  214,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  227,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  242,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  257,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  274,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  291,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  310,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  330,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  351,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  374,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  398,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  423,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  450,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  479,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  510,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  543,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  578,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  615,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  654,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  696,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  741,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  788,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  839,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  893,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    },
+                                    {
+                                        "fc":  950,
+                                        "gain":  0,
+                                        "q":  16.1,
+                                        "coeffs":  [
+                                                       0,
+                                                       0,
+                                                       1,
+                                                       0,
+                                                       0
+                                                   ],
+                                        "enable":  true
+                                    }
+                                ]
+                  }
+              ]
+}

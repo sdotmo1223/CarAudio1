@@ -1,0 +1,11 @@
+{
+  "tool": "sweep-tool",
+  "mode": "bursts",
+  "at": "2026-10-19 19:38:34",
+  "input": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\sweep-20261019-193814-live_failcheck.wav",
+  "rate": 48000,
+  "sweepSamples": 513600,
+  "bursts": [
+    {"i": 0, "loopbackSample": 53594, "micSample": 579193, "offsetSamples": 525599, "delayMs": 10949.9792, "snrDb": 22.9, "ok": false, "truncated": true, "bands": []}
+  ]
+}

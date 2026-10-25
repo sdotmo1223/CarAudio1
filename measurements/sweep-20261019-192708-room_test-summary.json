@@ -1,0 +1,11 @@
+﻿{
+    "at":  "2026-10-19T19:27:43",
+    "name":  "room test",
+    "mic":  "Microphone Array (Realtek(R) Audio)",
+    "loopback":  "Stereo Mix (Realtek(R) Audio)",
+    "seconds":  14,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261019-192708-room_test.wav",
+    "response":  "sweep-20261019-192708-room_test.json",
+    "timing":  "sweep-20261019-192708-room_test-timing.json"
+}

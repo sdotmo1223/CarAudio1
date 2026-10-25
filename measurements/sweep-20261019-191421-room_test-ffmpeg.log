@@ -1,0 +1,5 @@
+[in#0 @ 0000020000b21740] Could not find audio only device with name ["Stereo Mix (Realtek(R) Audio)"] among source devices of type audio.
+[in#0 @ 0000020000b21740] Could not find audio only device with name ["Stereo Mix (Realtek(R) Audio)"] among source devices of type video.
+[in#0 @ 0000020000b21440] Error opening input: I/O error
+Error opening input file audio="Stereo Mix (Realtek(R) Audio)".
+Error opening input files: I/O error

@@ -1,0 +1,4 @@
+﻿[aist#0:0/pcm_s16le @ 000001ea70f1dd80] Guessed Channel Layout: stereo
+[aist#1:0/pcm_s16le @ 000001ea7387a2c0] Guessed Channel Layout: stereo
+[Parsed_amerge_4 @ 000001ea70ecf580] Input channel layouts overlap: output layout will be determined by the number of distinct input channels
+

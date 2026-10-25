@@ -1,0 +1,17 @@
+{
+  "tool": "sweep-tool",
+  "mode": "analyse",
+  "at": "2026-10-20 18:12:35",
+  "input": "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\measurements\\sweep-20261020-181200-listen30.wav",
+  "rate": 48000,
+  "delaySamples": 537034.574,
+  "delayMs": 11188.2203,
+  "snrDb": 5.6,
+  "coef": 0.0313,
+  "windowDropDb": 6.7,
+  "windowCoveragePct": 88,
+  "ok": false,
+  "truncated": false,
+  "verdict": "the mic did not correlate with the sweep",
+  "bands": []
+}

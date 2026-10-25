@@ -1,0 +1,17 @@
+﻿{
+    "at":  "2026-10-19T19:37:19",
+    "name":  "synthetic cycle",
+    "mic":  "(from file)",
+    "loopback":  "(from file)",
+    "seconds":  14,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "cycle.wav",
+    "result":  "sweep-20261019-193707-synthetic_cycle.json",
+    "bursts":  4,
+    "delaysMs":  [
+                     13,
+                     3,
+                     5,
+                     9
+                 ]
+}

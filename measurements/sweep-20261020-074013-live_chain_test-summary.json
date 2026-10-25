@@ -1,0 +1,14 @@
+﻿{
+    "at":  "2026-10-20T07:40:35",
+    "name":  "live_chain_test",
+    "mic":  "Microphone (UMIK-1)",
+    "loopback":  "Stereo Mix (Realtek(R) Audio)",
+    "seconds":  16,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261020-074013-live_chain_test.wav",
+    "result":  "sweep-20261020-074013-live_chain_test.json",
+    "bursts":  1,
+    "delaysMs":  [
+
+                 ]
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0d10">
+<title>DreTunes · stimulus</title>
+<style>
+  :root{
+    --bg:#0b0d10; --card:#14181d; --line:#222a33; --ink:#e8edf3; --dim:#8b98a6;
+    --ok:#33c46b; --hot:#ff5b5b; --acc:#3aa0ff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  body{padding:14px 14px calc(20px + env(safe-area-inset-bottom))}
+  h1{font-size:17px;margin:0 0 2px;letter-spacing:.2px}
+  .sub{color:var(--dim);font-size:12.5px;margin-bottom:14px}
+  .group{margin:0 0 16px}
+  .gh{font-size:11.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--dim);
+    margin:0 0 7px 2px}
+  button{font:inherit;color:inherit;border:0;background:none;width:100%;text-align:left;
+    cursor:pointer}
+  .row{display:flex;align-items:center;gap:12px;background:var(--card);
+    border:1px solid var(--line);border-radius:13px;padding:14px;margin-bottom:8px;
+    transition:border-color .12s,background .12s}
+  .row:active{background:#1a2028}
+  .row.sel{border-color:var(--acc);background:#16202b}
+  .row .t{font-weight:600}
+  .row .b{display:block;color:var(--dim);font-size:12px;font-weight:400;margin-top:2px}
+  .row .n{min-width:34px;height:34px;border-radius:50%;background:#1d242c;color:var(--dim);
+    display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;
+    flex:0 0 34px}
+  .row.sel .n{background:var(--acc);color:#04121f}
+  .bar{position:sticky;top:0;z-index:5;background:linear-gradient(var(--bg),var(--bg) 70%,transparent);
+    padding:6px 0 10px;margin:-6px 0 10px}
+  .big{background:var(--acc);color:#04121f;font-weight:700;border-radius:14px;
+    padding:17px;text-align:center;width:100%;font-size:16px}
+  .big.stop{background:var(--hot);color:#1a0404}
+  .big[disabled]{background:#20262e;color:#6c7783}
+  .meta{display:flex;justify-content:space-between;color:var(--dim);font-size:12.5px;
+    margin:10px 2px 0}
+  .meta b{color:var(--ink);font-weight:600}
+  .note{color:var(--dim);font-size:12px;margin-top:16px;border-top:1px solid var(--line);
+    padding-top:12px}
+  .note code{color:#a9b7c6}
+  .live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#39424d;
+    margin-right:7px;vertical-align:1px}
+  .live.on{background:var(--ok);box-shadow:0 0 0 4px rgba(51,196,107,.15)}
+  .chk{display:flex;align-items:center;gap:9px;color:var(--dim);font-size:12.5px;
+    margin-top:10px}
+  .chk input{width:17px;height:17px;accent-color:var(--acc)}
+</style>
+</head>
+<body>
+
+<h1>Stimulus</h1>
+<div class="sub">Play this on the phone. The laptop measures — it never plays.</div>
+
+<div class="bar">
+  <button class="big" id="go">Play</button>
+  <div class="meta">
+    <span><span class="live" id="dot"></span><b id="what">nothing selected</b></span>
+    <span id="clock">0.0 / 0.0 s</span>
+  </div>
+</div>
+
+<div class="group">
+  <div class="gh">Sweep · 10 s</div>
+  <button class="row" data-src="sweep-20-20000-10s.wav" data-name="sweep full range">
+    <span class="n">∞</span><span><span class="t">Full range</span>
+    <span class="b">20 Hz – 20 kHz · use for the cones</span></span></button>
+  <button class="row" data-src="sweep-1500-20000-10s.wav" data-name="sweep tweeter">
+    <span class="n">T</span><span><span class="t">Tweeter</span>
+    <span class="b">1.5 k – 20 kHz · never below 1.5 k</span></span></button>
+  <button class="row" data-src="sweep-200-18000-10s.wav" data-name="sweep midrange">
+    <span class="n">M</span><span><span class="t">Midrange</span>
+    <span class="b">200 Hz – 18 kHz</span></span></button>
+  <button class="row" data-src="sweep-110-12000-10s.wav" data-name="sweep midbass">
+    <span class="n">B</span><span><span class="t">Midbass</span>
+    <span class="b">110 Hz – 12 kHz</span></span></button>
+  <button class="row" data-src="sweep-25-200-10s.wav" data-name="sweep sub">
+    <span class="n">S</span><span><span class="t">Sub</span>
+    <span class="b">25 – 200 Hz</span></span></button>
+</div>
+
+<div class="group">
+  <div class="gh">Noise · 60 s loop</div>
+  <button class="row" data-src="pink-60s.wav" data-name="pink noise">
+    <span class="n">P</span><span><span class="t">Pink noise</span>
+    <span class="b">20 Hz – 20 kHz, equal energy per octave</span></span></button>
+</div>
+
+<label class="chk"><input type="checkbox" id="loop" checked> loop it</label>
+
+<div class="note">
+  Playback is a plain audio file, not a generated tone: it keeps running when the screen locks,
+  which the page's own sweep did not (it played 2.5 s and stopped on 2026-10-20, twice).
+  Leave this tab open and let it play to the end — the laptop refuses a take that arrives in part.
+</div>
+
+<audio id="a" preload="auto"></audio>
+
+<script>
+(function () {
+  var a = document.getElementById("a");
+  var go = document.getElementById("go");
+  var dot = document.getElementById("dot");
+  var what = document.getElementById("what");
+  var clock = document.getElementById("clock");
+  var loopBox = document.getElementById("loop");
+  var rows = [].slice.call(document.querySelectorAll(".row"));
+  var chosen = null;
+  var wake = null;
+
+  function fmt(s) { return isFinite(s) ? s.toFixed(1) : "0.0"; }
+
+  function select(row) {
+    rows.forEach(function (r) { r.classList.toggle("sel", r === row); });
+    chosen = row;
+    stop();
+    a.src = row.getAttribute("data-src");
+    a.load();
+    what.textContent = row.getAttribute("data-name");
+    clock.textContent = "0.0 / 0.0 s";
+    go.disabled = false;
+    go.textContent = "Play";
+    if ("mediaSession" in navigator) {
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: row.getAttribute("data-name"),
+          artist: "DreTunes",
+          album: "measurement stimulus"
+        });
+      } catch (e) { /* older browsers */ }
+    }
+  }
+
+  function stop() {
+    a.pause();
+    try { a.currentTime = 0; } catch (e) { /* not loaded yet */ }
+    go.classList.remove("stop");
+    go.textContent = "Play";
+    dot.classList.remove("on");
+  }
+
+  rows.forEach(function (r) {
+    r.addEventListener("click", function () { select(r); });
+  });
+
+  go.addEventListener("click", function () {
+    if (!chosen) { return; }
+    if (!a.paused) { stop(); return; }
+    // A quick resume is all that is needed; the file does the rest.
+    var p = a.play();
+    if (p && p.catch) {
+      p.catch(function (e) {
+        what.textContent = "blocked: " + (e && e.message ? e.message : e);
+      });
+    }
+    go.classList.add("stop");
+    go.textContent = "Stop";
+    dot.classList.add("on");
+    // Keep the screen awake while a stimulus is running, when the browser allows it.
+    if ("wakeLock" in navigator && !wake) {
+      navigator.wakeLock.request("screen").then(function (w) {
+        wake = w;
+        w.addEventListener("release", function () { wake = null; });
+      }).catch(function () { /* not fatal: native playback survives a lock anyway */ });
+    }
+  });
+
+  a.addEventListener("ended", function () {
+    if (loopBox.checked) { a.currentTime = 0; a.play(); return; }
+    stop();
+  });
+  a.addEventListener("pause", function () {
+    if (a.ended && !loopBox.checked) { return; }
+    if (a.paused) { go.classList.remove("stop"); go.textContent = "Play"; dot.classList.remove("on"); }
+  });
+  a.addEventListener("play", function () {
+    go.classList.add("stop"); go.textContent = "Stop"; dot.classList.add("on");
+  });
+  a.addEventListener("timeupdate", function () {
+    clock.textContent = fmt(a.currentTime) + " / " + fmt(a.duration) + " s";
+  });
+  a.addEventListener("loadedmetadata", function () {
+    clock.textContent = fmt(a.currentTime) + " / " + fmt(a.duration) + " s";
+  });
+  a.addEventListener("error", function () {
+    what.textContent = "could not load " + (a.getAttribute("src") || "the file");
+    go.disabled = true;
+  });
+
+  go.disabled = true;
+})();
+</script>
+</body>
+</html>

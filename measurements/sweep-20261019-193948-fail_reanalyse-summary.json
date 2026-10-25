@@ -1,0 +1,14 @@
+﻿{
+    "at":  "2026-10-19T19:39:52",
+    "name":  "fail reanalyse",
+    "mic":  "(from file)",
+    "loopback":  "(from file)",
+    "seconds":  14,
+    "sweep":  "sweep-20-20k-10s.wav",
+    "recording":  "sweep-20261019-193814-live_failcheck.wav",
+    "result":  "sweep-20261019-193948-fail_reanalyse.json",
+    "bursts":  1,
+    "delaysMs":  [
+
+                 ]
+}

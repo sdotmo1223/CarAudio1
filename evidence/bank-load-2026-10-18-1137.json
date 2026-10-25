@@ -1,0 +1,77 @@
+﻿{
+    "preInfo":  {
+                    "groups":  [
+                                   -6,
+                                   0,
+                                   -6,
+                                   -2.8
+                               ],
+                    "mainDb":  -3,
+                    "mem":  2
+                },
+    "play":  1,
+    "captured":  "2026-10-18T11:38:45.8290193-04:00",
+    "postInfo":  {
+                     "groups":  [
+                                    -6,
+                                    0,
+                                    -6,
+                                    -2.8
+                                ],
+                     "mainDb":  -3,
+                     "mem":  1
+                 },
+    "verdict":  "PASS",
+    "writes":  [
+                   "mem1 eq8:0 pb8:0 out:acked=False mask=0x00FF tx=True",
+                   "mem2 eq8:0 pb8:0 out:acked=False mask=0x00FF tx=True",
+                   "mem3 eq8:0 pb8:0 out:acked=False mask=0x00FF tx=True",
+                   "mem4 eq8:0 pb8:0 out:acked=False mask=0x00FF tx=True"
+               ],
+    "failures":  [
+
+                 ],
+    "verify":  [
+                   {
+                       "eqBandsChecked":  248,
+                       "memory":  0,
+                       "crossoverCoeffsOk":  8,
+                       "problems":  0,
+                       "eqBandsOk":  248
+                   },
+                   {
+                       "eqBandsChecked":  248,
+                       "memory":  1,
+                       "crossoverCoeffsOk":  8,
+                       "problems":  0,
+                       "eqBandsOk":  248
+                   },
+                   {
+                       "eqBandsChecked":  248,
+                       "memory":  2,
+                       "crossoverCoeffsOk":  8,
+                       "problems":  0,
+                       "eqBandsOk":  248
+                   },
+                   {
+                       "eqBandsChecked":  248,
+                       "memory":  3,
+                       "crossoverCoeffsOk":  8,
+                       "problems":  0,
+                       "eqBandsOk":  248
+                   }
+               ],
+    "enableMask":  255,
+    "jumpTx":  "55AA14000C010000A50000011E00BC80BC9C0000000000003E891859",
+    "playOutput":  [
+                       "g0=-4.6dB d0=5.4ms",
+                       "g1=-7dB d1=3.8ms",
+                       "g2=-7dB d2=6ms",
+                       "g3=-4dB d3=4.09ms",
+                       "g4=-3dB d4=4.59ms",
+                       "g5=-3dB d5=5ms",
+                       "g6=-14dB d6=3.8ms",
+                       "g7=-5dB d7=4.4ms"
+                   ],
+    "file":  "C:\\Users\\sdotm\\OneDrive\\Documents\\Default Project\\ds18-bridge\\web\\bor8f3.idsp"
+}
